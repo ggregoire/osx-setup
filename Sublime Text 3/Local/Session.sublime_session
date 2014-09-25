@@ -1,0 +1,1138 @@
+{
+	"folder_history":
+	[
+		"/Users/guillaume/GitHub/test-js",
+		"/Users/guillaume/GitHub/content-square/uxtesting-web-client",
+		"/Users/guillaume/GitHub/angular-seed",
+		"/Users/guillaume/Desktop/js"
+	],
+	"last_version": 3065,
+	"last_window_id": 30,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 720.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"get",
+						"getOperator"
+					],
+					[
+						"con",
+						"conditions"
+					],
+					[
+						"versi",
+						"versionsMatched"
+					],
+					[
+						"vers",
+						"versionsMatched"
+					],
+					[
+						"for",
+						"foreach"
+					],
+					[
+						"coo",
+						"cookieVersion"
+					],
+					[
+						"array",
+						"array2"
+					],
+					[
+						"pro",
+						"prototype"
+					],
+					[
+						"hasa",
+						"hasAllFalse"
+					],
+					[
+						"has",
+						"hasAtLeastOneTrue"
+					],
+					[
+						"cond",
+						"conditions"
+					],
+					[
+						"condi",
+						"condition"
+					],
+					[
+						"ROOT_",
+						"ROOT_PREVIEW"
+					],
+					[
+						"getA",
+						"getAndRefresh"
+					],
+					[
+						"el",
+						"el2"
+					],
+					[
+						"cs",
+						"cs_test"
+					],
+					[
+						"idver",
+						"idVersionFromUrl"
+					],
+					[
+						"idv",
+						"idVersionFromUrl"
+					],
+					[
+						"idVe",
+						"idVersionFromUrl"
+					],
+					[
+						"idV",
+						"idVersionFromUrl"
+					],
+					[
+						"prev",
+						"uxPreviewModule"
+					],
+					[
+						"id",
+						"idVersion"
+					],
+					[
+						"is",
+						"isPreview"
+					],
+					[
+						"UX",
+						"UXUtils"
+					],
+					[
+						"hash",
+						"hashName"
+					],
+					[
+						"js",
+						"jshint"
+					],
+					[
+						"margin",
+						"margin-left"
+					],
+					[
+						"s",
+						"script"
+					]
+				]
+			},
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 291.0,
+				"selected_items":
+				[
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"package",
+						"Package Control: List Packages"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"ssjs",
+						"Set Syntax: JSON"
+					],
+					[
+						"ssja",
+						"Set Syntax: JavaScript"
+					],
+					[
+						"alig",
+						"Package Control: Install Package"
+					],
+					[
+						"list",
+						"Package Control: List Packages"
+					],
+					[
+						"pack",
+						"Package Control: List Packages"
+					],
+					[
+						"ssma",
+						"Set Syntax: Markdown"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 579.0
+			},
+			"console":
+			{
+				"height": 126.0,
+				"history":
+				[
+					"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/Users/guillaume/Library/Application Support/Sublime Text 3/Packages/User/icon_grunt.tmPreferences",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/lib/loader.js",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/tests/unit/match-with-target.spec.js",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/lib/match-with-target.js",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/Gruntfile.js",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/tests/e2e/preview-module.e2e.spec.js",
+				"/Users/guillaume/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/lib/utils.js",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/lib/init.js",
+				"/Users/guillaume/GitHub/content-square/tests/index.html",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/karma.conf.js",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/tests/unit/test_browser_detection.js",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/tests/unit/test_utils.js",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/lib/target.js",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/lib/preview-module.js",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/lib/uxtesting.js",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/lib/ergotest.js",
+				"/Users/guillaume/.zshrc",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/lib/config.js",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/package.json",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/protractor.conf.js",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/build/release/js/utils.min.js",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/.jshintrc",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/lib/test.html",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/lib/jquery-1.7.2.min.js",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/lib/config.test.json",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/tests/e2e/angular_demo.js",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/tests/sources/basic_test.html",
+				"/Users/guillaume/GitHub/test-js/index.html",
+				"/Users/guillaume/GitHub/test-js/eval.js",
+				"/Users/guillaume/GitHub/angular-seed/gulpfile.js",
+				"/Users/guillaume/GitHub/dev-env/Vagrantfile",
+				"/Users/guillaume/GitHub/angular-seed/.bowerrc",
+				"/Users/guillaume/GitHub/angular-seed/karma.conf.js",
+				"/Users/guillaume/GitHub/angular-seed/src/index.html",
+				"/Users/guillaume/GitHub/angular-seed/src/app/view1/view1.js",
+				"/Users/guillaume/GitHub/angular-seed/src/app/view1/view1.html",
+				"/Users/guillaume/GitHub/angular-seed/src/app/view2/view2_test.js",
+				"/Users/guillaume/GitHub/angular-seed/dist/index.html",
+				"/Users/guillaume/GitHub/angular-seed/dist/app.css",
+				"/Users/guillaume/GitHub/angular-seed/dist/app.js",
+				"/Users/guillaume/GitHub/angular-seed/package.json",
+				"/Users/guillaume/GitHub/angular-seed/src/app/app.js",
+				"/Users/guillaume/GitHub/angular-seed/.jshintrc",
+				"/Users/guillaume/Desktop/frichti/index.html",
+				"/Users/guillaume/Desktop/install.md",
+				"/Users/guillaume/.bash_profile",
+				"/Users/guillaume/GitHub/angular-seed/bower.json",
+				"/Users/guillaume/Desktop/js/gulpfile.js",
+				"/Users/guillaume/GitHub/angular-seed/src/app/view2/view2.js",
+				"/Users/guillaume/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+				"/Users/guillaume/GitHub/angular-seed/app/app.css",
+				"/Users/guillaume/GitHub/angular-seed/app/index.html",
+				"/Users/guillaume/GitHub/angular-seed/LICENSE",
+				"/Users/guillaume/GitHub/angular-seed/README.md",
+				"/Users/guillaume/GitHub/angular-seed/app/index-async.html",
+				"/Users/guillaume/GitHub/angular-seed/app/view2/view2.html",
+				"/Users/guillaume/GitHub/angular-seed/app/view1/view1.html",
+				"/Users/guillaume/GitHub/angular-seed/app/view1/view1.js",
+				"/Users/guillaume/Desktop/js/js/hello.js",
+				"/Users/guillaume/Desktop/js/js/world.js",
+				"/Users/guillaume/Desktop/js/package.json",
+				"/Users/guillaume/Desktop/js/index.html",
+				"/Users/guillaume/Desktop/js/dist/js/app.min.js",
+				"/Users/guillaume/Desktop/js/dist/js/app.js",
+				"/Users/guillaume/Desktop/js/hello.js",
+				"/Users/guillaume/.zsh_history",
+				"/Users/guillaume/.bash_history",
+				"/Users/guillaume/Desktop/install"
+			],
+			"find":
+			{
+				"height": 26.0
+			},
+			"find_in_files":
+			{
+				"height": 95.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"]');\n",
+					"processMatchedVersion",
+					"choosever",
+					");\n",
+					"firstVersionButton",
+					"el2",
+					"test",
+					").",
+					"cookie",
+					"cs_preview",
+					"getParameterByName",
+					"cs_preview",
+					"cs_",
+					"cookie",
+					"eval"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"testFromUrl"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 26.0
+			},
+			"input":
+			{
+				"height": 33.0
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"replace":
+			{
+				"height": 48.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 223.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 1366.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"karma-",
+						"karma-html-reporter"
+					],
+					[
+						"vers",
+						"versionKey"
+					],
+					[
+						"ver",
+						"versions"
+					],
+					[
+						"get",
+						"getOperator"
+					],
+					[
+						"con",
+						"conditions"
+					],
+					[
+						"versi",
+						"versionsMatched"
+					],
+					[
+						"for",
+						"foreach"
+					],
+					[
+						"coo",
+						"cookieVersion"
+					],
+					[
+						"array",
+						"array2"
+					],
+					[
+						"pro",
+						"prototype"
+					],
+					[
+						"hasa",
+						"hasAllFalse"
+					],
+					[
+						"has",
+						"hasAtLeastOneTrue"
+					],
+					[
+						"cond",
+						"conditions"
+					],
+					[
+						"condi",
+						"condition"
+					],
+					[
+						"ROOT_",
+						"ROOT_PREVIEW"
+					],
+					[
+						"getA",
+						"getAndRefresh"
+					],
+					[
+						"el",
+						"el2"
+					],
+					[
+						"cs",
+						"cs_test"
+					],
+					[
+						"idver",
+						"idVersionFromUrl"
+					],
+					[
+						"idv",
+						"idVersionFromUrl"
+					],
+					[
+						"idVe",
+						"idVersionFromUrl"
+					],
+					[
+						"idV",
+						"idVersionFromUrl"
+					],
+					[
+						"prev",
+						"uxPreviewModule"
+					],
+					[
+						"id",
+						"idVersion"
+					],
+					[
+						"is",
+						"isPreview"
+					],
+					[
+						"UX",
+						"UXUtils"
+					],
+					[
+						"hash",
+						"hashName"
+					],
+					[
+						"js",
+						"jshint"
+					],
+					[
+						"margin",
+						"margin-left"
+					],
+					[
+						"s",
+						"script"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/Users/guillaume/GitHub/content-square/uxtesting-web-client/lib/uxtesting.js",
+					"settings":
+					{
+						"buffer_size": 5804,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/guillaume/GitHub/content-square/uxtesting-web-client/Gruntfile.js",
+					"settings":
+					{
+						"buffer_size": 5592,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/guillaume/GitHub/content-square/uxtesting-web-client/tests/unit/uxtesting.spec.js",
+					"settings":
+					{
+						"buffer_size": 792,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/guillaume/GitHub/content-square/uxtesting-web-client/tests/unit/test_utils.js",
+					"settings":
+					{
+						"buffer_size": 1169,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/guillaume/GitHub/content-square/uxtesting-web-client/karma.conf.js",
+					"settings":
+					{
+						"buffer_size": 3027,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/guillaume/GitHub/content-square/uxtesting-web-client/karma_html/Chrome 37.0.2062 (Mac OS X 10.9.4)/index.html",
+					"settings":
+					{
+						"buffer_size": 5920,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/Users/guillaume/GitHub/content-square/uxtesting-web-client/node_modules/karma-html-reporter/jasmine_template.html",
+					"settings":
+					{
+						"buffer_size": 4809,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/Users/guillaume/GitHub/content-square/uxtesting-web-client/lib/ergotest.js",
+					"settings":
+					{
+						"buffer_size": 41182,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 375.0,
+				"selected_items":
+				[
+					[
+						"pack",
+						"Package Control: Remove Package"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"package",
+						"Package Control: List Packages"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"ssjs",
+						"Set Syntax: JSON"
+					],
+					[
+						"ssja",
+						"Set Syntax: JavaScript"
+					],
+					[
+						"alig",
+						"Package Control: Install Package"
+					],
+					[
+						"list",
+						"Package Control: List Packages"
+					],
+					[
+						"ssma",
+						"Set Syntax: Markdown"
+					],
+					[
+						"",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 579.0
+			},
+			"console":
+			{
+				"height": 126.0,
+				"history":
+				[
+					"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/karma_html",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/karma_html/Chrome 37.0.2062 (Mac OS X 10.9.4)",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/lib",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/node_modules",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/node_modules/karma-html-reporter",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/tests",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/tests/e2e",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/tests/unit"
+			],
+			"file_history":
+			[
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/package.json",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/coverage/Chrome 37.0.2062 (Mac OS X 10.9.4)/index.html",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/lib/init.js",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/lib/config.js",
+				"/Users/guillaume/Library/Application Support/Sublime Text 3/Packages/User/icon_grunt.tmPreferences",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/Gruntfile.js",
+				"/Users/guillaume/Library/Application Support/Sublime Text 3/Packages/User/icon_js.tmPreferences",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/README.md",
+				"/Users/guillaume/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/lib/loader.js",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/tests/unit/match-with-target.spec.js",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/lib/match-with-target.js",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/tests/e2e/preview-module.e2e.spec.js",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/lib/utils.js",
+				"/Users/guillaume/GitHub/content-square/tests/index.html",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/karma.conf.js",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/tests/unit/test_browser_detection.js",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/tests/unit/test_utils.js",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/lib/target.js",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/lib/preview-module.js",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/lib/uxtesting.js",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/lib/ergotest.js",
+				"/Users/guillaume/.zshrc",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/protractor.conf.js",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/build/release/js/utils.min.js",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/.jshintrc",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/lib/test.html",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/lib/jquery-1.7.2.min.js",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/lib/config.test.json",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/tests/e2e/angular_demo.js",
+				"/Users/guillaume/GitHub/content-square/uxtesting-web-client/tests/sources/basic_test.html",
+				"/Users/guillaume/GitHub/test-js/index.html",
+				"/Users/guillaume/GitHub/test-js/eval.js",
+				"/Users/guillaume/GitHub/angular-seed/gulpfile.js",
+				"/Users/guillaume/GitHub/dev-env/Vagrantfile",
+				"/Users/guillaume/GitHub/angular-seed/.bowerrc",
+				"/Users/guillaume/GitHub/angular-seed/karma.conf.js",
+				"/Users/guillaume/GitHub/angular-seed/src/index.html",
+				"/Users/guillaume/GitHub/angular-seed/src/app/view1/view1.js",
+				"/Users/guillaume/GitHub/angular-seed/src/app/view1/view1.html",
+				"/Users/guillaume/GitHub/angular-seed/src/app/view2/view2_test.js",
+				"/Users/guillaume/GitHub/angular-seed/dist/index.html",
+				"/Users/guillaume/GitHub/angular-seed/dist/app.css",
+				"/Users/guillaume/GitHub/angular-seed/dist/app.js",
+				"/Users/guillaume/GitHub/angular-seed/package.json",
+				"/Users/guillaume/GitHub/angular-seed/src/app/app.js",
+				"/Users/guillaume/GitHub/angular-seed/.jshintrc",
+				"/Users/guillaume/Desktop/frichti/index.html",
+				"/Users/guillaume/Desktop/install.md",
+				"/Users/guillaume/.bash_profile",
+				"/Users/guillaume/GitHub/angular-seed/bower.json",
+				"/Users/guillaume/Desktop/js/gulpfile.js",
+				"/Users/guillaume/GitHub/angular-seed/src/app/view2/view2.js",
+				"/Users/guillaume/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+				"/Users/guillaume/GitHub/angular-seed/app/app.css",
+				"/Users/guillaume/GitHub/angular-seed/app/index.html",
+				"/Users/guillaume/GitHub/angular-seed/LICENSE",
+				"/Users/guillaume/GitHub/angular-seed/README.md",
+				"/Users/guillaume/GitHub/angular-seed/app/index-async.html",
+				"/Users/guillaume/GitHub/angular-seed/app/view2/view2.html",
+				"/Users/guillaume/GitHub/angular-seed/app/view1/view1.html",
+				"/Users/guillaume/GitHub/angular-seed/app/view1/view1.js",
+				"/Users/guillaume/Desktop/js/js/hello.js",
+				"/Users/guillaume/Desktop/js/js/world.js",
+				"/Users/guillaume/Desktop/js/package.json",
+				"/Users/guillaume/Desktop/js/index.html",
+				"/Users/guillaume/Desktop/js/dist/js/app.min.js",
+				"/Users/guillaume/Desktop/js/dist/js/app.js",
+				"/Users/guillaume/Desktop/js/hello.js",
+				"/Users/guillaume/.zsh_history",
+				"/Users/guillaume/.bash_history",
+				"/Users/guillaume/Desktop/install"
+			],
+			"find":
+			{
+				"height": 37.0
+			},
+			"find_in_files":
+			{
+				"height": 95.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"]');\n",
+					"processMatchedVersion",
+					"choosever",
+					");\n",
+					"firstVersionButton",
+					"el2",
+					"test",
+					").",
+					"cookie",
+					"cs_preview",
+					"getParameterByName",
+					"cs_preview",
+					"cs_",
+					"cookie",
+					"eval"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"testFromUrl"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"follow_symlinks": true,
+					"path": "/Users/guillaume/Desktop/js"
+				},
+				{
+					"follow_symlinks": true,
+					"path": "/Users/guillaume/GitHub/angular-seed"
+				},
+				{
+					"follow_symlinks": true,
+					"path": "/Users/guillaume/GitHub/content-square/uxtesting-web-client"
+				},
+				{
+					"follow_symlinks": true,
+					"path": "/Users/guillaume/GitHub/test-js"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 3,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/Users/guillaume/GitHub/content-square/uxtesting-web-client/lib/uxtesting.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 5804,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										4454,
+										4454
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 2189.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 5,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/Users/guillaume/GitHub/content-square/uxtesting-web-client/Gruntfile.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 5592,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										5057,
+										5057
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 1814.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 4,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/Users/guillaume/GitHub/content-square/uxtesting-web-client/tests/unit/uxtesting.spec.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 792,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										14,
+										14
+									]
+								],
+								"settings":
+								{
+									"open_with_edit": true,
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 6,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/Users/guillaume/GitHub/content-square/uxtesting-web-client/tests/unit/test_utils.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1169,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										668,
+										668
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/Users/guillaume/GitHub/content-square/uxtesting-web-client/karma.conf.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 3027,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1289,
+										1298
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 218.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 5,
+							"file": "/Users/guillaume/GitHub/content-square/uxtesting-web-client/karma_html/Chrome 37.0.2062 (Mac OS X 10.9.4)/index.html",
+							"semi_transient": true,
+							"settings":
+							{
+								"buffer_size": 5920,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/HTML/HTML.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 6,
+							"file": "/Users/guillaume/GitHub/content-square/uxtesting-web-client/node_modules/karma-html-reporter/jasmine_template.html",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 4809,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/HTML/HTML.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
+							"type": "text"
+						},
+						{
+							"buffer": 7,
+							"file": "/Users/guillaume/GitHub/content-square/uxtesting-web-client/lib/ergotest.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 41182,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										11254,
+										11275
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 20.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 7,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 23.0
+			},
+			"input":
+			{
+				"height": 33.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"position": "1 277 158 1366 746 0 0 1920 1058 ",
+			"project": "",
+			"replace":
+			{
+				"height": 66.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 223.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 3,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}
