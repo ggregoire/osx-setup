@@ -42,27 +42,27 @@ __dev__
 
 __media__
 
-10. `brew cask install utorrent`
-11. `brew cask install vlc`
+1. `brew cask install utorrent`
+2. `brew cask install vlc`
 
 __tools__
 
-12. `brew cask install appcleaner`
-13. `brew cask install spectacle`
-14. `brew cask install bettertouchtool` <small>(Preferences > Finder > Two Finger Swift Left/Right : 3F Swipe Left/Right)</small>
-23. `brew cask install day-o` <small>(Preferences > Date & Time format > HH:mm)</small>
 1. `brew cask install xtrafinder`
+2. `brew cask install appcleaner`
+3. `brew cask install spectacle`
+4. `brew cask install bettertouchtool` <small>(Preferences > Finder > Two Finger Swift Left/Right : 3F Swipe Left/Right)</small>
+5. `brew cask install day-o` <small>(Preferences > Date & Time format > HH:mm)</small>
 
 __system__
 
-15. `brew cask install qlcolorcode`
-16. `brew cask install qlstephen`
-17. `brew cask install qlmarkdown`
-18. `brew cask install quicklook-json`
-19. `brew cask install qlprettypatch`
-20. `brew cask install quicklook-csv`
-21. `brew cask install betterzipql`
-22. `brew cask install webp-quicklook`
+1. `brew cask install qlcolorcode`
+2. `brew cask install qlstephen`
+3. `brew cask install qlmarkdown`
+4. `brew cask install quicklook-json`
+5. `brew cask install qlprettypatch`
+6. `brew cask install quicklook-csv`
+7. `brew cask install betterzipql`
+8. `brew cask install webp-quicklook`
 
 # NPM INSTALLS
 
