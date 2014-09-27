@@ -50,7 +50,7 @@ __tools__
 1. `brew cask install xtrafinder`
 2. `brew cask install appcleaner`
 3. `brew cask install spectacle`
-4. `brew cask install bettertouchtool` <small>(Preferences > Finder > Two Finger Swift Left/Right : 3F Swipe Left/Right)</small>
+4. `brew cask install bettertouchtool`
 5. `brew cask install day-o` <small>(Preferences > Date & Time format > HH:mm)</small>
 
 __system__
@@ -108,4 +108,29 @@ __system__
 # DESKTOP BACKGROUND
 
 Finder > Go to `/Library/Screen Savers/Default Collections/1-National Geographic/NatGeo04.jpg` > Set desktop picture
+
+# FINDER PREFERENCES
+
+![lol](https://github.com/ggregoire/osx-setup/tree/master/finder.png)
+
+__osx__
+
+1. View > Show Path Bar
+2. View > Show Status Bar
+3. Toolbar > Remove `Share` and `Edit tags`
+4. Toolbar > Add `Get Info`
+5. View Options > Sort by `name` and check Show item info > Set as Defaults
+6. Finder Preferences > General > New Finder : GitHub
+7. Finder Preferences > Tags > all unchecked
+8. Finder Preferences > Sidebar > Favorites > only AirDrop, Guillaume and Downloads checked
+9. Finder Preferences > Advanced > uncheck Show warnings
+
+__xtrafinder__
+
+Import `XtraFinder.plist`
+
+__bettertouchtool__
+
+1. Preferences > Finder > Two Finger Swift Left/Right > 3F Swipe Left/Right
+
 
