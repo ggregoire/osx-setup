@@ -111,7 +111,7 @@ Finder > Go to `/Library/Screen Savers/Default Collections/1-National Geographic
 
 # FINDER PREFERENCES
 
-![lol](https://github.com/ggregoire/osx-setup/tree/master/finder.png)
+![screenshot](https://raw.githubusercontent.com/ggregoire/osx-setup/master/finder.png)
 
 __osx__
 
