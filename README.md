@@ -49,7 +49,7 @@ __tools__
 
 12. `brew cask install appcleaner`
 13. `brew cask install spectacle`
-14. `brew cask install bettertouchtool`
+14. `brew cask install bettertouchtool` <small>(Preferences > Finder > Two Finger Swift Left/Right : 3F Swipe Left/Right)</small>
 23. `brew cask install day-o` <small>(Preferences > Date & Time format > HH:mm)</small>
 
 __system__
