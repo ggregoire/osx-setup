@@ -27,6 +27,7 @@ Software update...
 2. Trackpad > uncheck "Scroll direction natural"
 3. Mission Control > uncheck "Show dashboard as a space"
 4. Dock > check "Automatically hide and show the Dock"
+5. General > "Show scroll bars" > Always
 
 ## HOMEBREW
 
