@@ -102,8 +102,7 @@ __system__
 ## OH MY ZSH
 
 1. `curl -L http://install.ohmyz.sh | sh`
-2. ~/.zshrc > `export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin"`
-3. ~/.zshrc > `plugins=(git osx brew brew-cask npm bower zsh-syntax-highlighting)`
+2. Copy `.zshrc` to `~/.zshrc`
 
 ## ITERM2 PREFERENCES
 
