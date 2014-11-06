@@ -27,7 +27,6 @@ Software update...
 2. Trackpad > uncheck "Scroll direction natural"
 3. Mission Control > uncheck "Show dashboard as a space"
 4. Dock > check "Automatically hide and show the Dock"
-5. General > "Show scroll bars" > Always
 
 ## HOMEBREW
 
@@ -102,7 +101,7 @@ __system__
 ## OH MY ZSH
 
 1. `curl -L http://install.ohmyz.sh | sh`
-2. Copy `.zshrc` to `~/.zshrc`
+2. Copy `.zshrc` to `~/.zshrc
 
 ## ITERM2 PREFERENCES
 
