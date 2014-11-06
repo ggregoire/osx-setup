@@ -48,7 +48,7 @@ ZSH_THEME="pure"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git osx brew brew-cask npm bower zsh-syntax-highlighting)
+plugins=(git osx brew brew-cask npm bower composer symfony2 vagrant zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -82,4 +82,11 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+alias rbtpost="rbt post --target-groups=Frontend -p HEAD"
+alias vupssh="cd GitHub/dev-env && vagrant up && vagrant ssh"
+alias csq="cd GitHub/content-square/"
+
 ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern cursor root)
+
+# Grunt auto completion
+eval "$(grunt --completion=zsh)"
