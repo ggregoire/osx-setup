@@ -101,7 +101,7 @@ __system__
 ## OH MY ZSH
 
 1. `curl -L http://install.ohmyz.sh | sh`
-2. Copy `.zshrc` to `~/.zshrc
+2. Copy `.zshrc` to `~/.zshrc`
 
 ## ITERM2 PREFERENCES
 
