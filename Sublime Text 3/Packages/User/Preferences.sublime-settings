@@ -1,12 +1,15 @@
 {
+	"atomic_save": false,
 	"color_scheme": "Packages/Base16 Color Schemes/base16-default.dark.tmTheme",
+	"ensure_newline_at_eof_on_save": true,
 	"font_face": "Droid Sans Mono",
-	"font_size": 13,
+	"font_size": 12,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
 	"tab_size": 4,
 	"theme": "Soda Dark 3.sublime-theme",
-	"translate_tabs_to_spaces": true
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
 }

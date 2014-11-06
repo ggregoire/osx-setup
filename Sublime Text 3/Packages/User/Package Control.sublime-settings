@@ -2,9 +2,13 @@
 	"installed_packages":
 	[
 		"Alignment",
+		"AngularJS",
 		"Base16 Color Schemes",
 		"DocBlockr",
+		"GitCommitMsg",
+		"Jasmine JS",
 		"JavaScriptNext - ES6 Syntax",
+		"Modific",
 		"SideBarEnhancements",
 		"Theme - Soda"
 	]

@@ -118,12 +118,15 @@ __system__
 
 ## SUBLIME PACKAGES
 
-- SideBarEnhancements
 - Alignment
-- DocBlokr
-- JavaScriptNext
-- Theme Soda
+- AngularJS
 - Base16
+- DocBlokr
+- GitCommitMsg
+- JavaScriptNext
+- Modific
+- SideBarEnhancements
+- Theme Soda
 
 ## DESKTOP BACKGROUND
 
