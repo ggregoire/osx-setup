@@ -1,15 +1,27 @@
 {
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
-		"Alignment",
-		"AngularJS",
+		"ApplySyntax",
+		"Babel",
 		"Base16 Color Schemes",
+		"BracketHighlighter",
 		"DocBlockr",
+		"FixMyJS",
 		"GitCommitMsg",
-		"Jasmine JS",
-		"JavaScriptNext - ES6 Syntax",
+		"JavaScript Snippets",
+		"JSCS-Formatter",
 		"Modific",
+		"Oceanic Next Color Scheme",
+		"Package Control",
+		"PackageResourceViewer",
+		"Schemr",
+		"Seti_UI",
 		"SideBarEnhancements",
-		"Theme - Soda"
+		"TabsExtra",
+		"Themr",
+		"WordHighlight"
 	]
 }

@@ -1,0 +1,26 @@
+{
+	"folders":
+	[
+		{
+			"path": "/Users/guillaume/GitHub/devenv-symfony-compose/www/sitefortests"
+		},
+		{
+			"path": "/Users/guillaume/GitHub/devenv-symfony-compose/www/mousetestclient"
+		},
+		{
+			"path": "/Users/guillaume/GitHub/content-square/uxtesting-web-client"
+		},
+		{
+			"path": "/Users/guillaume/GitHub/content-square/dev-uxanalytics.content-square.fr"
+		},
+		{
+			"path": "/Users/guillaume/GitHub/content-square/dev-publicitest.content-square.fr"
+		},
+		{
+			"path": "/Users/guillaume/GitHub/content-square/dev-hub.content-square.fr"
+		},
+		{
+			"path": "/Users/guillaume/GitHub/content-square/dev-ergotest.content-square.fr"
+		}
+	]
+}

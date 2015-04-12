@@ -82,11 +82,30 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias rbtpost="rbt post --target-groups=Frontend -p HEAD"
-alias vupssh="cd GitHub/dev-env && vagrant up && vagrant ssh"
+rbtpost() {
+    local commit="$1"
+    if [[ -z "$1" ]]
+    then
+        commit="HEAD"
+    fi
+    rbt post --target-groups=Frontend -p $commit
+}
+
+start() {
+    cd GitHub/devenv-symfony-compose && 
+    workon docker-compose &&
+    boot2docker start &&
+    $(boot2docker shellinit 2>/dev/null) &&
+    fig up
+}
+
 alias csq="cd GitHub/content-square/"
+alias uxa="cd GitHub/content-square/dev-uxanalytics.content-square.fr"
 
 ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern cursor root)
 
 # Grunt auto completion
 eval "$(grunt --completion=zsh)"
+export WORKON_HOME=~/.virtualenvs
+source /usr/local/bin/virtualenvwrapper.sh
+

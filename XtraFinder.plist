@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>XtraFinder_ShowStatusBarIcon</key>
-	<true/>
+	<false/>
 	<key>XtraFinder_XFAlwaysShowToolbarPlugin</key>
 	<false/>
 	<key>XtraFinder_XFAttributesMenuPlugin</key>
@@ -131,7 +131,7 @@
 	<key>XtraFinder_XFTabPlugin_ShowSideBar</key>
 	<true/>
 	<key>XtraFinder_XFTabPlugin_SidebarWidth</key>
-	<real>133</real>
+	<real>124</real>
 	<key>XtraFinder_XFTabPlugin_ToggleDualPanelShortcut</key>
 	<dict>
 		<key>keyCharsIgnoringModifiers</key>
@@ -145,6 +145,18 @@
 	<true/>
 	<key>XtraFinder_XFToolbarButtonService</key>
 	<true/>
+	<key>XtraFinder_XFToolbarButtonService_Configuration</key>
+	<dict>
+		<key>Identifiers</key>
+		<array>
+			<string>com.trankynam.XtraFinder.CopyPath</string>
+			<string>com.trankynam.XtraFinder.Attributes</string>
+			<string>com.trankynam.XtraFinder.ShowHiddenItems</string>
+			<string>com.trankynam.XtraFinder.NewTerminalHere</string>
+		</array>
+		<key>Index</key>
+		<integer>6</integer>
+	</dict>
 	<key>XtraFinder_XFWindowTopMostActionPlugin</key>
 	<false/>
 </dict>

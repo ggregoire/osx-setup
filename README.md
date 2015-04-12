@@ -38,7 +38,6 @@ Software update...
 1. `brew install zsh`
 2. `brew install git`
 3. `brew install node`
-4. `brew install unfs3`
 
 ## HOMEBREW CASK
 
@@ -54,10 +53,8 @@ __dev__
 3. `brew cask install sublime-text3`
 4. `brew cask install github`
 5. `brew cask install filezilla`
-6. `brew cask install dash`
-7. `brew cask install java7`
-8. `brew cask install virtualbox`
-9. `brew cask install vagrant`
+6. `brew cask install java7`
+7. `brew cask install virtualbox`
 
 __media__
 
@@ -68,9 +65,11 @@ __tools__
 
 1. `brew cask install xtrafinder`
 2. `brew cask install appcleaner`
-3. `brew cask install spectacle`
-4. `brew cask install bettertouchtool`
-5. `brew cask install day-o` <small>(Preferences > Date & Time format > HH:mm)</small>
+3. `brew cask install ccleaner`
+5. `brew cask install the-unarchiver`
+6. `brew cask install spectacle`
+7. `brew cask install day-o` <small>(Preferences > Date & Time format > HH:mm)</small>
+8. `brew cask install flux`
 
 __system__
 
@@ -116,15 +115,64 @@ __system__
 
 ## SUBLIME PACKAGES
 
-- Alignment
-- AngularJS
-- Base16
+- ApplySyntax
+- Babel
+- BracketHighlighter
 - DocBlokr
+- FixMyJS
 - GitCommitMsg
-- JavaScriptNext
+- JavaScript Snippets
+- JSCS-Formatter
 - Modific
+- Oceanic Next Color Scheme
+- PackageResourceViewer
+- Schemr
+- Seti_UI
 - SideBarEnhancements
-- Theme Soda
+- TabsExtra
+- Themr
+- WordHilight
+
+## SUBLIME USER SETTINGS
+
+```
+{
+    "font_size": 13,
+    "font_face": "Source Code Pro Light",
+    "color_scheme": "Packages/Oceanic Next Color Scheme/Oceanic Next.tmTheme",
+    "theme": "Seti.sublime-theme",
+    "Seti_ClosedFolder_same": true,
+    "Seti_SB_big": false,
+    "Seti_SB_bright": false,
+    "Seti_in_4_a_treat": true,
+    "Seti_no_bar_undertabs": true,
+    "Seti_pad_3": false,
+    "Seti_pad_5": false,
+    "Seti_rainbow": true,
+    "Seti_sb_small_padding": false,
+    "Seti_sb_tree_med": false,
+    "Seti_sb_tree_miny": false,
+    "Seti_sb_tree_tiny": false,
+    "Seti_sb_wild": true,
+    "Seti_tabs_small": true,
+    "bold_folder_labels": false,
+    "caret_extra_bottom": 3,
+    "caret_extra_top": 3,
+    "caret_extra_width": 4,
+    "ensure_newline_at_eof_on_save": true,
+    "highlight_line": true,
+    "highlight_modified_tabs": true,
+    "index_files": false,
+    "line_padding_bottom": 2,
+    "line_padding_top": 2,
+    "overlay_scroll_bars": "enabled",
+    "show_tab_close_buttons": true,
+    "tab_size": 4,
+    "translate_tabs_to_spaces": true,
+    "trim_trailing_white_space_on_save": true,
+    "word_separators": "./\\()\"'-:,.;<>~!@#%^&*|+=[]{}`~?"
+}
+```
 
 ## DESKTOP BACKGROUND
 
@@ -149,9 +197,5 @@ __osx__
 __xtrafinder__
 
 Import `XtraFinder.plist`
-
-__bettertouchtool__
-
-1. Preferences > Finder > Two Finger Swift Left/Right > 3F Swipe Left/Right
 
 
