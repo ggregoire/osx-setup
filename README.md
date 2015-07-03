@@ -20,7 +20,7 @@
 
 ## UPDATE
 
-Software update...
+Apple menu > Software update...
 
 ## SYSTEM PREFERENCES
 
