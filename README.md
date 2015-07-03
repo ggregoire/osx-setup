@@ -16,7 +16,7 @@
 * [Sublime Packages](#sublime-packages)
 * [Desktop Background](#desktop-background)
 * [Finder Preferences](#finder-preferences)
-* [Other installs (unavailable with brew](#other-installs-unavailable-with-brew)
+* [Other installs (unavailable with brew)](#other-installs-unavailable-with-brew)
 
 ## UPDATE
 
