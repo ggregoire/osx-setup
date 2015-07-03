@@ -31,6 +31,8 @@ Apple menu > Software update...
 
 ## HOMEBREW
 
+> http://brew.sh
+
 1. `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 2. `launchctl setenv PATH "/usr/local/bin:$PATH"`
 
@@ -43,6 +45,8 @@ Apple menu > Software update...
 5. `brew install mysql`
 
 ## HOMEBREW CASK
+
+> http://caskroom.io
 
 1. `brew install caskroom/cask/brew-cask`
 2. `brew tap caskroom/versions`
@@ -108,6 +112,8 @@ __system__
 
 ## OH MY ZSH
 
+> http://ohmyz.sh
+
 1. `curl -L http://install.ohmyz.sh | sh`
 2. Copy `.zshrc` to `~/.zshrc`
 
@@ -119,6 +125,8 @@ __system__
 4. Profiles > Window > Transparency + Columns 130 + Rows 30
 
 ## SUBLIME PACKAGE CONTROL
+
+> https://packagecontrol.io
 
 `import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)`
 
