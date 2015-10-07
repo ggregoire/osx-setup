@@ -102,6 +102,7 @@ __system__
 6. `npm install -g protractor`
 7. `npm install -g jasmine-node-karma`
 8. `npm install -g jscs`
+9. `npm install -g latest-version`
 
 ## GIT SETUP
 
