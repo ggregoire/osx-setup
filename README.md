@@ -38,11 +38,15 @@ Apple menu > Software update...
 ## HOMEBREW INSTALLS
 
 1. `brew install zsh`
-2. `brew install git`
-3. `brew install node`
-4. `brew install wget`
-5. `brew install mysql`
-6. `brew install imagemagick --with-xz --with-font-config --with-little-cms --with-little-cms2`
+2. `brew install zsh-completions`
+3. `brew install git`
+4. `brew install node`
+5. `brew install wget`
+6. `brew install mysql`
+7. `brew install imagemagick --with-xz --with-font-config --with-little-cms --with-little-cms2`
+8. `brew install openssh`
+9. `brew install htop-osx`
+10. `brew install fasd`
 
 ## HOMEBREW CASK
 
@@ -59,23 +63,19 @@ __dev__
 2. `brew cask install iterm2`
 3. `brew cask install sublime-text3`
 4. `brew cask install github`
-5. `brew cask install filezilla`
-6. `brew cask install java7`
-7. `brew cask install virtualbox`
-8. `brew cask install tunnelblick`
+6. `brew cask install java`
+7. `brew cask install evernote`
 
 __media__
 
 1. `brew cask install utorrent`
 2. `brew cask install vlc`
-3. `brew cask install steam`
 
 __tools__
 
 1. `brew cask install xtrafinder`
 2. `brew cask install appcleaner`
 3. `brew cask install ccleaner`
-5. `brew cask install the-unarchiver`
 6. `brew cask install spectacle` <small>(Preferences > Remove Left Half, Right Half, Top Half, Bottom Half)</small>
 7. `brew cask install day-o` <small>(Preferences > Date & Time format > HH:mm)</small>
 8. `brew cask install flux`
