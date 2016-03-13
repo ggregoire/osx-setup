@@ -1,17 +1,18 @@
-autoload -U promptinit && promptinit
-
 # Path to your oh-my-zsh installation.
-export ZSH=$HOME/.oh-my-zsh
+export ZSH=~/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-# ZSH_THEME="robbyrussell"
 ZSH_THEME="pure"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
+
+# Uncomment the following line to use hyphen-insensitive completion. Case
+# sensitive completion must be off. _ and - will be interchangeable.
+# HYPHEN_INSENSITIVE="true"
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
 # DISABLE_AUTO_UPDATE="true"
@@ -48,14 +49,14 @@ ZSH_THEME="pure"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git osx brew brew-cask npm bower composer symfony2 vagrant zsh-syntax-highlighting)
-
-source $ZSH/oh-my-zsh.sh
+plugins=(bower brew brew-cask colored-man-pages fasd git grunt node npm osx zsh-syntax-highlighting)
 
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # export MANPATH="/usr/local/man:$MANPATH"
+
+source $ZSH/oh-my-zsh.sh
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -82,30 +83,5 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-rbtpost() {
-    local commit="$1"
-    if [[ -z "$1" ]]
-    then
-        commit="HEAD"
-    fi
-    rbt post --target-groups=Frontend -p $commit
-}
-
-start() {
-    cd GitHub/devenv-symfony-compose && 
-    workon docker-compose &&
-    boot2docker start &&
-    $(boot2docker shellinit 2>/dev/null) &&
-    fig up
-}
-
-alias csq="cd GitHub/content-square/"
-alias uxa="cd GitHub/content-square/dev-uxanalytics.content-square.fr"
-
-ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern cursor root)
-
-# Grunt auto completion
-eval "$(grunt --completion=zsh)"
-export WORKON_HOME=~/.virtualenvs
-source /usr/local/bin/virtualenvwrapper.sh
-
+# Add env.sh
+. ~/config/env.sh
