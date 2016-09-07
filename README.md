@@ -4,8 +4,9 @@
 
 * [Update](#update)
 * [System Preferences](#system-preferences)
-* [VPN] (#vpn)
+* [VPN](#vpn)
 * [Homebrew](#homebrew)
+* [ZSH](#zsh)
 * [Homebrew Installs](#homebrew-installs)
 * [Homebrew Cask Installs](#homebrew-cask-installs)
 * [NPM Installs](#npm-installs)
@@ -16,7 +17,7 @@
 * [Sublime Packages](#sublime-packages)
 * [Finder Preferences](#finder-preferences)
 * [Other installs (unavailable with brew)](#other-installs-unavailable-with-brew)
-* [Resources] (#resources)
+* [Resources](#resources)
 
 ## UPDATE
 
@@ -37,8 +38,18 @@ Apple menu > App Store > Software update
 
 ## HOMEBREW
 
-* http://brew.sh
-* https://caskroom.github.io
+1. Install [Homebrew](http://brew.sh)
+2. Install [Homebrew Cask](https://caskroom.github.io)
+3. To use Homebrew packages instead of OSX defaults (zsh, git, etc), add `PATH="/usr/local/bin:$PATH"` to `~/.zshrc`
+
+## ZSH
+
+1. Add `/usr/local/bin/zsh` to `/etc/shells`
+2. Change default shell: `chsh -s /usr/local/bin/zsh` (check with `which zsh` & `zsh --version`)
+3. Install [oh-my-zsh](http://ohmyz.sh)
+4. Add `PATH="/usr/local/bin:$PATH"` to the new `~/.zshrc`
+5. Install [ZSH Syntax Highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh)
+6. Install [Pure Prompt](https://github.com/sindresorhus/pure)
 
 ## HOMEBREW INSTALLS
 
@@ -92,7 +103,6 @@ __system__
 
 ## NPM INSTALLS
 
-1. `npm install -g pure-prompt` (follow the setup on GitHub)
 2. `npm install -g bower`
 3. `npm install -g gulp`
 4. `npm install -g grunt`
@@ -109,22 +119,13 @@ __system__
 3. `git config -g user.email "guillaume.gregoire.89@gmail.com"`
 4. `git config -g credential.helper osxkeychain`
 
-## OH MY ZSH
-
-> http://ohmyz.sh
-
-1. `curl -L http://install.ohmyz.sh | sh`
-2. Copy `.zshrc` to `~/.zshrc`
-
 ## ITERM2 PREFERENCES
 
-1. General > Startup + Closing > Uncheck all
-2. Appearance > Panes > Uncheck "Show per-pane title bar"
-3. Appearance > Dimming > Check "Dim inactive split panes" + "Animate dimming" only 
-4. Profiles > New profile
-5. Profiles > Colors > Load Presets > Import > [base16-default.dark.itermcolors](https://github.com/chriskempson/base16-iterm2)
-6. Profiles > Text > 12pt Source Code Pro Light
-7. Profiles > Window > Transparency + Columns 80 + Rows 25
+1. General > Startup + Closing > uncheck all
+2. Appearance > Panes > uncheck "Show per-pane title bar"
+3. Appearance > Dimming > check "Dim inactive split panes" 
+4. Profiles > Colors > Load Presets > Import > `Snazzy.itermcolors`
+5. Profiles > Text > 14pt Menlo
 
 ## SUBLIME PACKAGE CONTROL
 
