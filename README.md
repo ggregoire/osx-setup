@@ -45,10 +45,9 @@ Apple menu > App Store > Software update
 
 1. Add `/usr/local/bin/zsh` to `/etc/shells`
 2. Change default shell: `chsh -s /usr/local/bin/zsh` (check with `which zsh` & `zsh --version`)
-3. Install [oh-my-zsh](http://ohmyz.sh)
-4. Add `PATH="/usr/local/bin:$PATH"` to the new `~/.zshrc`
-5. Install [ZSH Syntax Highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh)
-6. Install [Pure Prompt](https://github.com/sindresorhus/pure)
+3. Install [Oh My Zsh](http://ohmyz.sh)
+4. Install [Zsh Syntax Highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh)
+5. Install [Pure Prompt](https://github.com/sindresorhus/pure)
 
 ## HOMEBREW INSTALLS
 
