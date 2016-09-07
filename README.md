@@ -16,6 +16,7 @@
 * [Sublime Packages](#sublime-packages)
 * [Finder Preferences](#finder-preferences)
 * [Other installs (unavailable with brew)](#other-installs-unavailable-with-brew)
+* [Resources] (#resources)
 
 ## UPDATE
 
@@ -23,21 +24,21 @@ Apple menu > App Store > Software update
 
 ## SYSTEM PREFERENCES
 
-1. Security & Privacy > Firewall > Turn on + Options > Stealth mode
+1. Security & Privacy > Firewall > Turn on + Options > check "Stealth mode"
 2. Network > WiFi > Advanced > DNS > `208.67.222.222` + `208.67.220.220` (OpenDNS)
-3. Trackpad > check "tap to click"
+3. Spotlight > uncheck "Bing Web Searches" + "Allow Spotlight Suggestions"
+3. Trackpad > check "Tap to click"
 4. Trackpad > uncheck "Scroll direction natural"
 5. Dock > check "Automatically hide and show the Dock"
 
 ## VPN
 
-> https://www.expressvpn.com
+* https://www.expressvpn.com
 
 ## HOMEBREW
 
-> http://brew.sh
-
-> https://caskroom.github.io
+* http://brew.sh
+* https://caskroom.github.io
 
 ## HOMEBREW INSTALLS
 
@@ -209,3 +210,7 @@ Import `XtraFinder.plist`
 ## OTHER INSTALLS (unavailable with brew)
 
 1. `Memory Clean` (set `Auto Clean = true`)
+
+## RESOURCES
+
+* https://github.com/drduh/OS-X-Security-and-Privacy-Guide
