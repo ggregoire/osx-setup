@@ -1,12 +1,12 @@
-# My personal OSX setup
+# My personal OSX setup (El Capitan)
 
 ## Summary
 
 * [Update](#update)
 * [System Preferences](#system-preferences)
+* [VPN] (#vpn)
 * [Homebrew](#homebrew)
 * [Homebrew Installs](#homebrew-installs)
-* [Homebrew Cask](#homebrew-cask)
 * [Homebrew Cask Installs](#homebrew-cask-installs)
 * [NPM Installs](#npm-installs)
 * [Git Setup](#git-setup)
@@ -19,21 +19,24 @@
 
 ## UPDATE
 
-Apple menu > Software update...
+Apple menu > App Store > Software update
 
 ## SYSTEM PREFERENCES
 
-1. Trackpad > check "tap to click"
-2. Trackpad > uncheck "Scroll direction natural"
-3. Mission Control > uncheck "Show dashboard as a space"
-4. Dock > check "Automatically hide and show the Dock"
+1. Security & Privacy > Firewall > Turn on + Options > Stealth mode
+2. Network > WiFi > Advanced > DNS > `208.67.222.222` + `208.67.220.220` (OpenDNS)
+3. Trackpad > check "tap to click"
+4. Trackpad > uncheck "Scroll direction natural"
+5. Dock > check "Automatically hide and show the Dock"
+
+## VPN
+
+> https://www.expressvpn.com
 
 ## HOMEBREW
 
 > http://brew.sh
-
-1. `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-2. `launchctl setenv PATH "/usr/local/bin:$PATH"`
+> https://caskroom.github.io
 
 ## HOMEBREW INSTALLS
 
@@ -47,13 +50,6 @@ Apple menu > Software update...
 8. `brew install openssh`
 9. `brew install htop-osx`
 10. `brew install fasd`
-
-## HOMEBREW CASK
-
-> http://caskroom.io
-
-1. `brew install caskroom/cask/brew-cask`
-2. `brew tap caskroom/versions`
 
 ## HOMEBREW CASK INSTALLS
 
