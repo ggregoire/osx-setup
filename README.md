@@ -11,7 +11,6 @@
 * [Homebrew Cask Installs](#homebrew-cask-installs)
 * [NPM Installs](#npm-installs)
 * [Git Setup](#git-setup)
-* [Oh My ZSH](#oh-my-zsh)
 * [iTerm2 Preferences](#iterm2-preferences)
 * [Sublime Package Control](#sublime-package-control)
 * [Sublime Packages](#sublime-packages)
