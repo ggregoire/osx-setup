@@ -36,6 +36,7 @@ Apple menu > App Store > Software update
 ## HOMEBREW
 
 > http://brew.sh
+
 > https://caskroom.github.io
 
 ## HOMEBREW INSTALLS
