@@ -9,6 +9,7 @@
 * [ZSH](#zsh)
 * [NPM](#npm)
 * [Git Setup](#git-setup)
+* [VSCode Setup](#vscode-setup)
 * [iTerm2 Preferences](#iterm2-preferences)
 * [Finder Preferences](#finder-preferences)
 * [Resources](#resources)
@@ -56,6 +57,22 @@ Global deps: `create-react-app`, `npm`, `pure-prompt`, `typings`
 2. `git config -g user.name "Guillaume Grégoire"`
 3. `git config -g user.email "guillaume.gregoire.89@gmail.com"`
 4. `git config -g credential.helper osxkeychain`
+
+## VSCode Setup
+
+1. Extensions: `Path Autocomplete`, `Spacegray VSCode`, `vscode-icons`, `JavaScript code snippets`
+2. User settings:
+
+```json
+{
+  "editor.fontSize": 14,
+  "editor.tabSize": 2,
+  "editor.renderIndentGuides": true,
+  "files.associations": {
+    "*.js": "javascriptreact"
+  }
+}
+```
 
 ## ITERM2 PREFERENCES
 
