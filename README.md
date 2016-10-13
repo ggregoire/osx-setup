@@ -53,10 +53,8 @@ Global deps: `create-react-app`, `npm`, `pure-prompt`, `typings`
 
 ## GIT SETUP
 
-1. `git config -g core.precomposeunicode true`
-2. `git config -g user.name "Guillaume Grégoire"`
-3. `git config -g user.email "guillaume.gregoire.89@gmail.com"`
-4. `git config -g credential.helper osxkeychain`
+1. `git config --global user.name "Guillaume Grégoire"`
+2. `git config --global user.email "guillaume.gregoire.89@gmail.com"`
 
 ## VSCode Setup
 
