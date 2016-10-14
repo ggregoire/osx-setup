@@ -36,7 +36,7 @@ Apple menu > App Store > Software update
 1. Install [Homebrew](http://brew.sh)
 2. Install [Homebrew Cask](https://caskroom.github.io)
 3. Brew installs: `git`, `mysql`, `node`, `zsh`
-4. Cask installs: `evernote`, `google-chrome`, `sequel-pro`, `visual-studio-code`, `flux`, `iterm2`, `spectacle`
+4. Cask installs: `evernote`, `flux`, `google-chrome`, `iterm2`, `sequel-pro`, `spectacle`, `visual-studio-code`
 5. To use Homebrew packages instead of OSX defaults (zsh, git, etc), add `PATH="/usr/local/bin:$PATH"` to `~/.zshrc`
 
 ## ZSH
@@ -49,7 +49,7 @@ Apple menu > App Store > Software update
 
 ## NPM
 
-Global deps: `create-react-app`, `npm`, `pure-prompt`, `typings`
+Global deps: `create-react-app`, `flow-bin`, `npm`, `pure-prompt`, `sloc`, `typings`
 
 ## GIT SETUP
 
@@ -58,17 +58,40 @@ Global deps: `create-react-app`, `npm`, `pure-prompt`, `typings`
 
 ## VSCode Setup
 
-1. Extensions: `Path Autocomplete`, `Spacegray VSCode`, `vscode-icons`, `JavaScript code snippets`
-2. User settings:
+### Extensions: 
+
+* [CSS Formatter](https://marketplace.visualstudio.com/items?itemName=aeschli.vscode-css-formatter)
+* [Nomo Dark Icon Theme](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-icontheme-nomo-dark)
+* [NPM Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
+* [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
+* [Flow Language Support](https://marketplace.visualstudio.com/items?itemName=flowtype.flow-for-vscode)
+* [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
+* [Typings Auto Installer](https://marketplace.visualstudio.com/items?itemName=jvitor83.typings-autoinstaller)
+* [Latest TypeScript and JavaScript Grammar](https://marketplace.visualstudio.com/items?itemName=ms-vscode.typescript-javascript-grammar)
+* [Eclipse](https://marketplace.visualstudio.com/items?itemName=tdtp23.eclipse-theme)
+* [JavaScript (ES6) code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
+* [Reactjs code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.ReactSnippets)
+
+### User settings:
 
 ```json
 {
   "editor.fontSize": 14,
   "editor.tabSize": 2,
   "editor.renderIndentGuides": true,
+  "files.trimTrailingWhitespace": true,
+  "auto-close-tag.SublimeText3Mode": true
+}
+```
+
+### Workspace settings:
+
+```json
+{
   "files.associations": {
     "*.js": "javascriptreact"
-  }
+  },
+  "javascript.validate.enable": false // for flow extension
 }
 ```
 
