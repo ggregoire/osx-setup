@@ -21,8 +21,7 @@ Apple menu > App Store > Software update
 ## SYSTEM PREFERENCES
 
 1. Security & Privacy > Firewall > Turn on + Options > check "Stealth mode"
-2. Network > WiFi > Advanced > DNS > `208.67.222.222` + `208.67.220.220` (OpenDNS)
-3. Spotlight > uncheck "Bing Web Searches" + "Allow Spotlight Suggestions"
+2. Network > WiFi > Advanced > DNS > `8.8.8.8` + `8.8.4.4` (Google)
 3. Trackpad > check "Tap to click"
 4. Trackpad > uncheck "Scroll direction natural"
 5. Dock > check "Automatically hide and show the Dock"
@@ -35,7 +34,7 @@ Apple menu > App Store > Software update
 
 1. Install [Homebrew](http://brew.sh)
 2. Install [Homebrew Cask](https://caskroom.github.io)
-3. Brew installs: `git`, `mysql`, `node`, `zsh`
+3. Brew installs: `git`, `mysql`, `node`, `yarn`, `zsh`
 4. Cask installs: `evernote`, `flux`, `google-chrome`, `iterm2`, `sequel-pro`, `spectacle`, `visual-studio-code`
 5. To use Homebrew packages instead of OSX defaults (zsh, git, etc), add `PATH="/usr/local/bin:$PATH"` to `~/.zshrc`
 
