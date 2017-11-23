@@ -12,6 +12,7 @@
 * [VSCode Setup](#vscode-setup)
 * [iTerm2 Preferences](#iterm2-preferences)
 * [Finder Preferences](#finder-preferences)
+* [Appearance](#appearance)
 * [Resources](#resources)
 
 ## UPDATE
@@ -121,6 +122,10 @@ __osx__
 __xtrafinder__
 
 Import `XtraFinder.plist`
+
+## APPEARANCE
+
+1. Icons: https://github.com/viktorstrate/flat.icns
 
 ## RESOURCES
 
