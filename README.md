@@ -105,13 +105,13 @@ Global deps: `create-react-app`, `flow-bin`, `npm`, `pure-prompt`, `sloc`, `typi
 
 ## FINDER PREFERENCES
 
-![screenshot](https://raw.githubusercontent.com/ggregoire/osx-setup/master/finder.png)
-
 1. View > Show Path Bar + Show Status Bar
 2. Toolbar > Add `Get Info` + Remove `Arrange`, `Action`, `Share` and `Edit tags`
 3. View > Show View Options > Big Icon Size + Text Size `14px` + check `Calculate all sizes` > Use as Defaults
 4. Finder Preferences > General > New Finder: `Downloads`
 5. Finder Preferences > Advanced > uncheck `Show warnings` + check `Remove items from the trash` & `Keep folders on top`
+
+![screenshot](https://github.com/ggregoire/osx-setup/blob/master/Finder.png?raw=true)
 
 ## APPEARANCE
 
