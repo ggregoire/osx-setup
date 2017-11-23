@@ -1,4 +1,4 @@
-# My personal OSX setup (El Capitan)
+# My personal OSX setup (High Sierra)
 
 ## Summary
 
