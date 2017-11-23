@@ -111,11 +111,13 @@ Global deps: `create-react-app`, `flow-bin`, `npm`, `pure-prompt`, `sloc`, `typi
 4. Preferences: General > New Finder: `Downloads`
 5. Preferences: Advanced > uncheck `Show warnings` + check `Remove items from the trash` & `Keep folders on top`
 
-![screenshot](https://github.com/ggregoire/osx-setup/blob/master/Finder.png?raw=true)
+![screenshot](https://github.com/ggregoire/osx-setup/blob/master/img/finder.png?raw=true)
 
 ## APPEARANCE
 
 1. Icons: https://github.com/viktorstrate/flat.icns
+
+![screenshot](https://github.com/ggregoire/osx-setup/blob/master/img/dock.png?raw=true)
 
 ## RESOURCES
 
