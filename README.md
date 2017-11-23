@@ -107,21 +107,11 @@ Global deps: `create-react-app`, `flow-bin`, `npm`, `pure-prompt`, `sloc`, `typi
 
 ![screenshot](https://raw.githubusercontent.com/ggregoire/osx-setup/master/finder.png)
 
-__osx__
-
-1. View > Show Path Bar
-2. View > Show Status Bar
-3. Toolbar > Remove `Share` and `Edit tags`
-4. Toolbar > Add `Get Info`
-5. View Options > Sort by `name` and check Show item info > Set as Defaults
-6. Finder Preferences > General > New Finder : GitHub
-7. Finder Preferences > Tags > all unchecked
-8. Finder Preferences > Sidebar > Favorites > only AirDrop, Guillaume and Downloads checked
-9. Finder Preferences > Advanced > uncheck Show warnings
-
-__xtrafinder__
-
-Import `XtraFinder.plist`
+1. View > Show Path Bar + Show Status Bar
+2. Toolbar > Add `Get Info` + Remove `Arrange`, `Action`, `Share` and `Edit tags`
+3. View > Show View Options > Big Icon Size + Text Size `14px` + check `Calculate all sizes` > Use as Defaults
+4. Finder Preferences > General > New Finder: `Downloads`
+5. Finder Preferences > Advanced > uncheck `Show warnings` + check `Remove items from the trash` & `Keep folders on top`
 
 ## APPEARANCE
 
