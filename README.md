@@ -7,11 +7,12 @@
 * [VPN](#vpn)
 * [Homebrew](#homebrew)
 * [ZSH](#zsh)
-* [Yarn](#npm)
+* [Yarn](#yarn)
 * [Git Setup](#git-setup)
 * [VSCode Setup](#vscode-setup)
 * [iTerm2 Preferences](#iterm2-preferences)
 * [Finder Preferences](#finder-preferences)
+* [Coconut Battery Preferences)(#coconut-battery-preferences)
 * [Appearance](#appearance)
 * [Resources](#resources)
 
@@ -127,6 +128,14 @@ If Flow enabled:
 5. Preferences: Advanced > uncheck `Show warnings` + check `Remove items from the trash` & `Keep folders on top`
 
 ![screenshot](https://github.com/ggregoire/osx-setup/blob/master/img/finder.png?raw=true)
+
+## COCONUT BATTERY PREFERENCES
+
+Before: Click on the battery in menu bar > Open Energy Saver Preferences > uncheck "Show battery status in menu bar"
+
+1. General > check "Launch at startup + Format: "%p %" + check "Show charge icon on the right"
+2. Update > check "Automatically check for updates weekly"
+
 
 ## APPEARANCE
 
