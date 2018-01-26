@@ -135,3 +135,5 @@ If Flow enabled:
 ## RESOURCES
 
 * https://github.com/drduh/OS-X-Security-and-Privacy-Guide
+* https://www.reddit.com/r/macapps
+* https://www.reddit.com/r/OSXTweaks
