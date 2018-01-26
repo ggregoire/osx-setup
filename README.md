@@ -113,11 +113,12 @@ If Flow enabled:
 
 ## ITERM2 PREFERENCES
 
-1. General > Startup + Closing > uncheck all
+1. General > Closing > uncheck all
 2. Appearance > Panes > uncheck "Show per-pane title bar"
 3. Appearance > Dimming > check "Dim inactive split panes" 
 4. Profiles > Colors > Load Presets > Import > `Snazzy.itermcolors`
-5. Profiles > Text > 14pt Menlo
+5. Profiles > Cursor > check "Vertical Bar" + check "Blinking Cursor"
+6. Profiles > Text > 14pt Fira Code + check "Use Ligatures"
 
 ## FINDER PREFERENCES
 
