@@ -12,7 +12,7 @@
 * [VSCode Setup](#vscode-setup)
 * [iTerm2 Preferences](#iterm2-preferences)
 * [Finder Preferences](#finder-preferences)
-* [Coconut Battery Preferences)(#coconut-battery-preferences)
+* [Coconut Battery Preferences](#coconut-battery-preferences)
 * [Appearance](#appearance)
 * [Resources](#resources)
 
