@@ -101,9 +101,11 @@ Packages: `create-react-app`, `depcheck`, `flow-bin`, `flow-typed`, `npm`, `pu
 
 ### Workspace settings:
 
+If Flow enabled:
+
 ```json
 {
-  "javascript.validate.enable": false // if Flow enabled
+  "javascript.validate.enable": false
 }
 ```
 
@@ -128,6 +130,8 @@ Packages: `create-react-app`, `depcheck`, `flow-bin`, `flow-typed`, `npm`, `pu
 ## APPEARANCE
 
 1. Icons: https://github.com/viktorstrate/flat.icns
+
+![screenshot](https://github.com/ggregoire/osx-setup/blob/master/img/dock.png?raw=true)
 
 ## RESOURCES
 
