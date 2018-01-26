@@ -13,6 +13,7 @@
 * [iTerm2 Preferences](#iterm2-preferences)
 * [Finder Preferences](#finder-preferences)
 * [Coconut Battery Preferences](#coconut-battery-preferences)
+* [Itsycal Preferences](#itsycal-preferences)
 * [Appearance](#appearance)
 * [Resources](#resources)
 
@@ -137,6 +138,12 @@ Before: Click on the battery in menu bar > Open Energy Saver Preferences > unche
 1. General > check "Launch at startup + Format: "%p %" + check "Show charge icon on the right"
 2. Update > check "Automatically check for updates weekly"
 
+## ITSYCAL PREFERENCES
+
+Before: Click on the date in menu bar > Open Date & Time Preferences > Clock > uncheck "Show date and time in menu bar"
+
+1. General > check "Launch at login" + first day of week: Monday
+2. Appearance > Format: "E d MMM H:mm" + check "Hide icon"
 
 ## APPEARANCE
 
