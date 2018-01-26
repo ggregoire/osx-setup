@@ -23,13 +23,14 @@ Apple menu > App Store > Updates
 
 1. Security & Privacy > General > "Require password immediately after sleep or screen saver begins"
 2. Security & Privacy > Firewall > Turn on, then Options > check "Stealth mode"
-3. Network > WiFi > Advanced > DNS Servers (choose one below):
+3. Security & Privacy > Privacy > Analytics > uncheck "Share Mac Analytics"
+4. Network > WiFi > Advanced > DNS Servers (choose one below):
     * Google: `8.8.8.8` · `8.8.4.4`
     * OpenDNS: `208.67.222.222` · `208.67.220.220` (⚠️ some basic stuff are blocked, eg. blizzard.com).
-4. Trackpad > check "Tap to click"
-5. Trackpad > uncheck "Scroll direction natural"
-6. Dock > check "Automatically hide and show the Dock"
-7. Dock > "Prefer tabs when opening new documents" > choose "Always"
+5. Trackpad > check "Tap to click"
+6. Trackpad > uncheck "Scroll direction natural"
+7. Dock > check "Automatically hide and show the Dock"
+8. Dock > "Prefer tabs when opening new documents" > choose "Always"
 
 ## VPN
 
