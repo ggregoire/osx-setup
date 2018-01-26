@@ -1,4 +1,4 @@
-# My personal OSX setup (High Sierra)
+# macOS High Sierra setup
 
 ## Summary
 
@@ -7,7 +7,7 @@
 * [VPN](#vpn)
 * [Homebrew](#homebrew)
 * [ZSH](#zsh)
-* [NPM](#npm)
+* [Yarn](#npm)
 * [Git Setup](#git-setup)
 * [VSCode Setup](#vscode-setup)
 * [iTerm2 Preferences](#iterm2-preferences)
@@ -17,15 +17,18 @@
 
 ## UPDATE
 
-Apple menu > App Store > Software update
+Apple menu > App Store > Updates
 
 ## SYSTEM PREFERENCES
 
-1. Security & Privacy > Firewall > Turn on + Options > check "Stealth mode"
-2. Network > WiFi > Advanced > DNS > `8.8.8.8` + `8.8.4.4` (Google)
+1. Security & Privacy > Firewall > Turn on, then Options > check "Stealth mode"
+2. Network > WiFi > Advanced > DNS Servers (choose one below):
+    * Google: `8.8.8.8` · `8.8.4.4`
+    * OpenDNS: `208.67.222.222` · `208.67.220.220` (⚠️ some basic stuff are blocked, eg. blizzard.com).
 3. Trackpad > check "Tap to click"
 4. Trackpad > uncheck "Scroll direction natural"
 5. Dock > check "Automatically hide and show the Dock"
+6. Dock > "Prefer tabs when opening new documents" > choose "Always"
 
 ## VPN
 
@@ -35,8 +38,8 @@ Apple menu > App Store > Software update
 
 1. Install [Homebrew](http://brew.sh)
 2. Install [Homebrew Cask](https://caskroom.github.io)
-3. Brew installs: `git`, `mysql`, `node`, `yarn`, `zsh`
-4. Cask installs: `evernote`, `flux`, `google-chrome`, `iterm2`, `sequel-pro`, `spectacle`, `visual-studio-code`
+3. Brew installs: `git`, `mysql`, `node`, `yarn`, `zsh`
+4. Cask installs: `appcleaner`, `artpip`, `background-music`, `ccleaner`, `coconutbattery`, `evernote`, `flux`, `google-chrome`, `iterm2`, `itsycal`, `liteicon`, `mysimbl`, `omnidisksweeper`, `psequel`, `qlmarkdown`, `sequel-pro`, `smcfancontrol`, `spectacle`, `usage`, `vanilla`, `visual-studio-code`
 5. To use Homebrew packages instead of OSX defaults (zsh, git, etc), add `PATH="/usr/local/bin:$PATH"` to `~/.zshrc`
 
 ## ZSH
@@ -47,9 +50,11 @@ Apple menu > App Store > Software update
 4. Install [Zsh Syntax Highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh)
 5. Install [Pure Prompt](https://github.com/sindresorhus/pure)
 
-## NPM
+## YARN
 
-Global deps: `create-react-app`, `flow-bin`, `npm`, `pure-prompt`, `sloc`, `typings`
+`yarn global add <package>`
+
+Packages: `create-react-app`, `depcheck`, `flow-bin`, `flow-typed`, `npm`, `pure-prompt`, `sloc`
 
 ## GIT SETUP
 
@@ -60,27 +65,37 @@ Global deps: `create-react-app`, `flow-bin`, `npm`, `pure-prompt`, `sloc`, `typi
 
 ### Extensions: 
 
-* [CSS Formatter](https://marketplace.visualstudio.com/items?itemName=aeschli.vscode-css-formatter)
-* [Nomo Dark Icon Theme](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-icontheme-nomo-dark)
+* [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
+* [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
+* [Bracket Pair Colorize](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
+* [Debugger For Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)
+* [Flow Language Support](https://marketplace.visualstudio.com/items?itemName=flowtype.flow-for-vscode)
+* [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
+* [Latest TypeScript and JavaScript Grammar](https://marketplace.visualstudio.com/items?itemName=ms-vscode.typescript-javascript-grammar)
+* [Monokai Pro](https://marketplace.visualstudio.com/items?itemName=monokai.theme-monokai-pro-vscode)
 * [NPM Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
 * [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
-* [Flow Language Support](https://marketplace.visualstudio.com/items?itemName=flowtype.flow-for-vscode)
-* [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
-* [Typings Auto Installer](https://marketplace.visualstudio.com/items?itemName=jvitor83.typings-autoinstaller)
-* [Latest TypeScript and JavaScript Grammar](https://marketplace.visualstudio.com/items?itemName=ms-vscode.typescript-javascript-grammar)
-* [Eclipse](https://marketplace.visualstudio.com/items?itemName=tdtp23.eclipse-theme)
-* [JavaScript (ES6) code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
-* [Reactjs code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.ReactSnippets)
+* [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+* [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
+* [vscode-styled-components](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components)
 
 ### User settings:
 
 ```json
 {
-  "editor.fontSize": 14,
-  "editor.tabSize": 2,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 15,
+  "editor.minimap.renderCharacters": false,
   "editor.renderIndentGuides": true,
+  "editor.tabSize": 2,
+  "extensions.ignoreRecommendations": false,
   "files.trimTrailingWhitespace": true,
-  "auto-close-tag.SublimeText3Mode": true
+  "git.autofetch": true,
+  "workbench.colorTheme": "Monokai Pro (Filter Machine)",
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.iconTheme": "Monokai Pro (Filter Machine) Icons",
+  "window.zoomLevel": 1,
 }
 ```
 
@@ -88,10 +103,7 @@ Global deps: `create-react-app`, `flow-bin`, `npm`, `pure-prompt`, `sloc`, `typi
 
 ```json
 {
-  "files.associations": {
-    "*.js": "javascriptreact"
-  },
-  "javascript.validate.enable": false
+  "javascript.validate.enable": false // if Flow enabled
 }
 ```
 
@@ -116,8 +128,6 @@ Global deps: `create-react-app`, `flow-bin`, `npm`, `pure-prompt`, `sloc`, `typi
 ## APPEARANCE
 
 1. Icons: https://github.com/viktorstrate/flat.icns
-
-![screenshot](https://github.com/ggregoire/osx-setup/blob/master/img/dock.png?raw=true)
 
 ## RESOURCES
 
