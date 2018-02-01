@@ -116,10 +116,11 @@ If Flow enabled:
 
 1. General > Closing > uncheck all
 2. Appearance > Panes > uncheck "Show per-pane title bar"
-3. Appearance > Dimming > check "Dim inactive split panes" 
-4. Profiles > Colors > Load Presets > Import > `Snazzy.itermcolors`
-5. Profiles > Cursor > check "Vertical Bar" + check "Blinking Cursor"
-6. Profiles > Text > 14pt Fira Code + check "Use Ligatures"
+3. Appearance > Dimming > check "Dim inactive split panes"
+4. Profiles > General > "Working Directory: Advanced conf" > Edit > "New Split Panes: Reuse previous session's directory"
+5. Profiles > Colors > Load Presets > Import > `Snazzy.itermcolors`
+6. Profiles > Cursor > check "Vertical Bar" + check "Blinking Cursor"
+7. Profiles > Text > 14pt Fira Code + check "Use Ligatures"
 
 ## FINDER PREFERENCES
 
