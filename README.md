@@ -57,7 +57,7 @@ Apple menu > App Store > Updates
 
 `yarn global add <package>`
 
-Packages: `create-react-app`, `depcheck`, `flow-typed`, `glow`, `npm`, `pure-prompt`, `sloc`
+Packages: `create-react-app`, `depcheck`, `flow-typed`, `glow`, `pure-prompt`, `sloc`
 
 ## GIT SETUP
 
