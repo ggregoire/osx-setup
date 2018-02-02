@@ -57,7 +57,7 @@ Apple menu > App Store > Updates
 
 `yarn global add <package>`
 
-Packages: `create-react-app`, `depcheck`, `flow-bin`, `flow-typed`, `npm`, `pure-prompt`, `sloc`
+Packages: `create-react-app`, `depcheck`, `flow-typed`, `glow`, `npm`, `pure-prompt`, `sloc`
 
 ## GIT SETUP
 
@@ -108,6 +108,7 @@ If Flow enabled:
 
 ```json
 {
+  "flow.useNPMPackagedFlow": true,
   "javascript.validate.enable": false
 }
 ```
