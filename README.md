@@ -122,6 +122,7 @@ If Flow enabled:
 5. Profiles > Colors > Load Presets > Import > `Snazzy.itermcolors`
 6. Profiles > Cursor > check "Vertical Bar" + check "Blinking Cursor"
 7. Profiles > Text > 14pt Fira Code + check "Use Ligatures"
+8. Profiles > Keys > Load Preset… > "Natural Text Editing"
 
 ## FINDER PREFERENCES
 
