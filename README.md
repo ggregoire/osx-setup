@@ -9,12 +9,11 @@
 * [Yarn](#yarn)
 * [Git Setup](#git-setup)
 * [VSCode Setup](#vscode-setup)
-* [nano syntax highlighting](#nano-syntax-highlighting)
+* [Nano Syntax Highlighting](#nano-syntax-highlighting)
 * [iTerm2 Preferences](#iterm2-preferences)
 * [Finder Preferences](#finder-preferences)
 * [Coconut Battery Preferences](#coconut-battery-preferences)
 * [Itsycal Preferences](#itsycal-preferences)
-* [Appearance](#appearance)
 * [Resources](#resources)
 
 ## UPDATE
@@ -109,7 +108,7 @@ If Flow enabled:
 }
 ```
 
-## nano syntax highlighting
+## NANO SYNTAX HIGHLIGHTING
 
 1. `curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh`
 2. `echo "include ~/.nano/*.nanorc" >> ~/.nanorc`
@@ -148,12 +147,6 @@ Before: Click on the date in menu bar > Open Date & Time Preferences > Clock > u
 
 1. General > check "Launch at login" + first day of week: Monday
 2. Appearance > Format: "E d MMM H:mm" + check "Hide icon"
-
-## APPEARANCE
-
-1. Icons: https://github.com/viktorstrate/flat.icns
-
-![screenshot](https://github.com/ggregoire/osx-setup/blob/master/img/dock.png?raw=true)
 
 ## RESOURCES
 
