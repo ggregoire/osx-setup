@@ -4,12 +4,12 @@
 
 * [Update](#update)
 * [System Preferences](#system-preferences)
-* [VPN](#vpn)
 * [Homebrew](#homebrew)
 * [ZSH](#zsh)
 * [Yarn](#yarn)
 * [Git Setup](#git-setup)
 * [VSCode Setup](#vscode-setup)
+* [nano syntax highlighting](#nano-syntax-highlighting)
 * [iTerm2 Preferences](#iterm2-preferences)
 * [Finder Preferences](#finder-preferences)
 * [Coconut Battery Preferences](#coconut-battery-preferences)
@@ -34,16 +34,12 @@ Apple menu > App Store > Updates
 7. Dock > check "Automatically hide and show the Dock"
 8. Dock > "Prefer tabs when opening new documents" > choose "Always"
 
-## VPN
-
-* [ExpressVPN](https://www.expressvpn.com)
-
 ## HOMEBREW
 
 1. Install [Homebrew](http://brew.sh)
 2. Install [Homebrew Cask](https://caskroom.github.io)
-3. Brew installs: `git`, `mysql`, `node`, `yarn`, `zsh`
-4. Cask installs: `appcleaner`, `artpip`, `background-music`, `ccleaner`, `coconutbattery`, `evernote`, `flux`, `google-chrome`, `iterm2`, `itsycal`, `liteicon`, `mysimbl`, `omnidisksweeper`, `psequel`, `qlmarkdown`, `sequel-pro`, `smcfancontrol`, `spectacle`, `usage`, `vanilla`, `visual-studio-code`
+3. Brew installs: `docker`, `docker-machine`, `ghc`, `go`, `git`, `haskell-stack`, `imagemagick`, `nano`, `node`, `sshpass`, `yarn`, `zsh`
+4. Cask installs: `appcleaner`, `background-music`, `ccleaner`, `coconutbattery`, `dbeaver-community`, `flux`, `google-chrome`, `iterm2`, `itsycal`, `notion`, `omnidisksweeper`, `qlmarkdown`, `smcfancontrol`, `usage`, `virtualbox`, `visual-studio-code`
 5. To use Homebrew packages instead of OSX defaults (zsh, git, etc), add `PATH="/usr/local/bin:$PATH"` to `~/.zshrc`
 
 ## ZSH
@@ -112,6 +108,11 @@ If Flow enabled:
   "javascript.validate.enable": false
 }
 ```
+
+## nano syntax highlighting
+
+1. `curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh`
+2. `echo "include ~/.nano/*.nanorc" >> ~/.nanorc`
 
 ## ITERM2 PREFERENCES
 
