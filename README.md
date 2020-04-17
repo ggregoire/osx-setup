@@ -37,8 +37,8 @@ Apple menu > App Store > Updates
 
 1. Install [Homebrew](http://brew.sh)
 2. Install [Homebrew Cask](https://caskroom.github.io)
-3. Brew installs: `docker`, `docker-machine`, `ghc`, `go`, `git`, `haskell-stack`, `imagemagick`, `nano`, `node`, `sshpass`, `yarn`, `zsh`
-4. Cask installs: `appcleaner`, `background-music`, `ccleaner`, `coconutbattery`, `dbeaver-community`, `flux`, `google-chrome`, `iterm2`, `itsycal`, `notion`, `omnidisksweeper`, `qlmarkdown`, `smcfancontrol`, `usage`, `virtualbox`, `visual-studio-code`
+3. Brew installs: `docker`, `docker-machine`, `ghc`, `go`, `git`, `haskell-stack`, `htop`, `imagemagick`, `nano`, `ncdu`, `node`, `sshpass`, `yarn`, `zsh`
+4. Cask installs: `appcleaner`, `background-music`, `ccleaner`, `coconutbattery`, `dbeaver-community`, `flux`, `google-chrome`, `iterm2`, `itsycal`, `kap`, `notion`, `omnidisksweeper`, `qlmarkdown`, `smcfancontrol`, `usage`, `virtualbox`, `visual-studio-code`
 5. To use Homebrew packages instead of OSX defaults (zsh, git, etc), add `PATH="/usr/local/bin:$PATH"` to `~/.zshrc`
 
 ## ZSH
