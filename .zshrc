@@ -10,3 +10,4 @@ source $ZSH/oh-my-zsh.sh
 
 alias hosts="sudo code /etc/hosts"
 alias zshrc="sudo code ~/.zshrc"
+alias du="ncdu --color dark -rr -x --exclude .git"
