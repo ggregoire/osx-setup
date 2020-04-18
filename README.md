@@ -7,7 +7,6 @@
 * [Homebrew](#homebrew)
 * [ZSH](#zsh)
 * [Yarn](#yarn)
-* [Git Setup](#git-setup)
 * [VSCode Setup](#vscode-setup)
 * [Nano Syntax Highlighting](#nano-syntax-highlighting)
 * [iTerm2 Preferences](#iterm2-preferences)
@@ -25,9 +24,7 @@ Apple menu > App Store > Updates
 1. Security & Privacy > General > "Require password immediately after sleep or screen saver begins"
 2. Security & Privacy > Firewall > Turn on, then Options > check "Stealth mode"
 3. Security & Privacy > Privacy > Analytics > uncheck "Share Mac Analytics"
-4. Network > WiFi > Advanced > DNS Servers (choose one below):
-    * Google: `8.8.8.8` · `8.8.4.4`
-    * OpenDNS: `208.67.222.222` · `208.67.220.220` (⚠️ some basic stuff are blocked, eg. blizzard.com).
+4. Network > WiFi > Advanced > DNS Servers: `8.8.8.8` · `8.8.4.4`
 5. Trackpad > check "Tap to click"
 6. Trackpad > uncheck "Scroll direction natural"
 7. Dock > check "Automatically hide and show the Dock"
@@ -45,20 +42,14 @@ Apple menu > App Store > Updates
 ## ZSH
 
 1. Change default shell: `sudo -s 'echo /usr/local/bin/zsh >> /etc/shells' && chsh -s /usr/local/bin/zsh`
-3. Install [Oh My Zsh](http://ohmyz.sh)
-4. Install [Zsh Syntax Highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh)
-5. Install [Pure Prompt](https://github.com/sindresorhus/pure)
+2. Install [Oh My Zsh](http://ohmyz.sh)
+3. Install [Zsh Syntax Highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh)
 
 ## YARN
 
 `yarn global add <package>`
 
-Packages: `create-react-app`, `depcheck`, `flow-typed`, `glow`, `pure-prompt`, `sloc`
-
-## GIT SETUP
-
-1. `git config --global user.name "Guillaume Grégoire"`
-2. `git config --global user.email "guillaume.gregoire.89@gmail.com"`
+Packages: `create-react-app`, `depcheck`, `sloc`
 
 ## VSCode Setup
 
@@ -95,17 +86,6 @@ Packages: `create-react-app`, `depcheck`, `flow-typed`, `glow`, `pure-prompt`, `
   "workbench.editor.tabSizing": "shrink",
   "workbench.iconTheme": "Monokai Pro (Filter Machine) Icons",
   "window.zoomLevel": 1,
-}
-```
-
-### Workspace settings:
-
-If Flow enabled:
-
-```json
-{
-  "flow.useNPMPackagedFlow": true,
-  "javascript.validate.enable": false
 }
 ```
 
