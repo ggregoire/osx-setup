@@ -11,7 +11,6 @@
 * [Nano Syntax Highlighting](#nano-syntax-highlighting)
 * [iTerm2 Preferences](#iterm2-preferences)
 * [Finder Preferences](#finder-preferences)
-* [Coconut Battery Preferences](#coconut-battery-preferences)
 * [Itsycal Preferences](#itsycal-preferences)
 * [Resources](#resources)
 
@@ -36,14 +35,15 @@ Apple menu > App Store > Updates
 2. Install [Homebrew Cask](https://caskroom.github.io)
 3. Add taps: `brew tap homebrew/cask-fonts`
 4. Brew installs: `ansible`, `docker`, `docker-machine`, `ghc`, `go`, `git`, `haskell-stack`, `htop`, `imagemagick`, `nano`, `ncdu`, `node`, `sshpass`, `starship`, `yarn`, `zsh`
-5. Cask installs: `appcleaner`, `background-music`, `ccleaner`, `coconutbattery`, `dbeaver-community`, `flux`, `font-firacode-nerd-font`, `google-chrome`, `iterm2`, `itsycal`, `kap`, `notion`, `omnidisksweeper`, `qlmarkdown`, `smcfancontrol`, `usage`, `virtualbox`, `visual-studio-code`
+5. Cask installs: `appcleaner`, `background-music`, `ccleaner`, `dbeaver-community`, `flux`, `font-firacode-nerd-font`, `google-chrome`, `iterm2`, `itsycal`, `kap`, `keepingyouawake`, `notion`, `omnidisksweeper`, `qlmarkdown`, `smcfancontrol`, `usage`, `virtualbox`, `visual-studio-code`
 6. To use Homebrew packages instead of OSX defaults (zsh, git, etc), add `PATH="/usr/local/bin:$PATH"` to `~/.zshrc`
 
 ## ZSH
 
 1. Change default shell: `sudo -s 'echo /usr/local/bin/zsh >> /etc/shells' && chsh -s /usr/local/bin/zsh`
 2. Install [Oh My Zsh](http://ohmyz.sh)
-3. Install [Zsh Syntax Highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh)
+3. Install [Zsh Syntax Highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+4. Install [Zsh Autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 
 ## YARN
 
@@ -100,10 +100,10 @@ Packages: `create-react-app`, `depcheck`, `sloc`
 2. Appearance > Panes > uncheck "Show per-pane title bar"
 3. Appearance > Dimming > check "Dim inactive split panes"
 4. Profiles > General > "Working Directory: Advanced conf" > Edit > "New Split Panes: Reuse previous session's directory"
-5. Profiles > Colors > Load Presets > Import > `Snazzy.itermcolors`
-6. Profiles > Cursor > check "Vertical Bar" + check "Blinking Cursor"
-7. Profiles > Text > 14pt Fira Code + check "Use Ligatures"
-8. Profiles > Keys > Load Preset… > "Natural Text Editing"
+5. Profiles > Colors > Presets > Import > `Nord` (https://www.nordtheme.com)
+6. Profiles > Textt > Check "Vertical Bar" + check "Blinking Cursor"
+7. Profiles > Text > FiraCode Nerd Font (https://github.com/ryanoasis/nerd-fonts) Regular 15 + check "Use Ligatures"
+8. Profiles > Keys > Presets… > "Natural Text Editing"
 
 ## FINDER PREFERENCES
 
@@ -114,13 +114,6 @@ Packages: `create-react-app`, `depcheck`, `sloc`
 5. Preferences: Advanced > uncheck `Show warnings` + check `Remove items from the trash` & `Keep folders on top`
 
 ![screenshot](https://github.com/ggregoire/osx-setup/blob/master/img/finder.png?raw=true)
-
-## COCONUT BATTERY PREFERENCES
-
-Before: Click on the battery in menu bar > Open Energy Saver Preferences > uncheck "Show battery status in menu bar"
-
-1. General > check "Launch at startup + Format: "%p %" + check "Show charge icon on the right"
-2. Update > check "Automatically check for updates weekly"
 
 ## ITSYCAL PREFERENCES
 
