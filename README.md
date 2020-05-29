@@ -37,6 +37,11 @@ Apple menu > App Store > Updates
 4. Brew installs: `ansible`, `docker`, `docker-machine`, `ghc`, `go`, `git`, `haskell-stack`, `htop`, `imagemagick`, `nano`, `ncdu`, `node`, `sshpass`, `starship`, `yarn`, `zsh`
 5. Cask installs: `appcleaner`, `background-music`, `ccleaner`, `dbeaver-community`, `flux`, `font-firacode-nerd-font`, `google-chrome`, `iterm2`, `itsycal`, `kap`, `keepingyouawake`, `notion`, `omnidisksweeper`, `qlmarkdown`, `smcfancontrol`, `usage`, `virtualbox`, `visual-studio-code`
 6. To use Homebrew packages instead of OSX defaults (zsh, git, etc), add `PATH="/usr/local/bin:$PATH"` to `~/.zshrc`
+7. Aliases in `~/.zshrc`:
+
+```
+alias du="ncdu --color dark -rr -x --exclude .git"
+```
 
 ## ZSH
 
@@ -44,6 +49,21 @@ Apple menu > App Store > Updates
 2. Install [Oh My Zsh](http://ohmyz.sh)
 3. Install [Zsh Syntax Highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 4. Install [Zsh Autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+5. Fix Zsh Autosuggestions copy/pasting lag in `~/.zshrc`:
+
+```
+# This speeds up pasting w/ autosuggest
+# https://github.com/zsh-users/zsh-autosuggestions/issues/238#issuecomment-389324292
+pasteinit() {
+  OLD_SELF_INSERT=${${(s.:.)widgets[self-insert]}[2,3]}
+  zle -N self-insert url-quote-magic # I wonder if you'd need `.url-quote-magic`?
+}
+pastefinish() {
+  zle -N self-insert $OLD_SELF_INSERT
+}
+zstyle :bracketed-paste-magic paste-init pasteinit
+zstyle :bracketed-paste-magic paste-finish pastefinish
+```
 
 ## YARN
 
