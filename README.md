@@ -34,7 +34,7 @@ Apple menu > App Store > Updates
 1. Install [Homebrew](http://brew.sh)
 2. Install [Homebrew Cask](https://caskroom.github.io)
 3. Add taps: `brew tap homebrew/cask-fonts`
-4. Brew installs: `ansible`, `docker`, `docker-machine`, `ghc`, `go`, `git`, `haskell-stack`, `htop`, `imagemagick`, `nano`, `ncdu`, `node`, `sshpass`, `starship`, `yarn`, `zsh`
+4. Brew installs: `ansible`, `bandwhich`, `docker`, `docker-machine`, `ghc`, `go`, `git`, `haskell-stack`, `htop`, `imagemagick`, `nano`, `ncdu`, `node`, `sshpass`, `starship`, `yarn`, `zsh`
 5. Cask installs: `appcleaner`, `background-music`, `ccleaner`, `dbeaver-community`, `flux`, `font-firacode-nerd-font`, `google-chrome`, `iterm2`, `itsycal`, `kap`, `keepingyouawake`, `notion`, `omnidisksweeper`, `qlmarkdown`, `smcfancontrol`, `usage`, `virtualbox`, `visual-studio-code`
 6. To use Homebrew packages instead of OSX defaults (zsh, git, etc), add `PATH="/usr/local/bin:$PATH"` to `~/.zshrc`
 7. Aliases in `~/.zshrc`:
