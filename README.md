@@ -120,10 +120,11 @@ Packages: `create-react-app`, `depcheck`, `sloc`
 2. Appearance > Panes > uncheck "Show per-pane title bar"
 3. Appearance > Dimming > check "Dim inactive split panes"
 4. Profiles > General > "Working Directory: Advanced conf" > Edit > "New Split Panes: Reuse previous session's directory"
-5. Profiles > Colors > Presets > Import > `Nord` (https://www.nordtheme.com)
-6. Profiles > Textt > Check "Vertical Bar" + check "Blinking Cursor"
-7. Profiles > Text > FiraCode Nerd Font (https://github.com/ryanoasis/nerd-fonts) Regular 15 + check "Use Ligatures"
-8. Profiles > Keys > Presets… > "Natural Text Editing"
+5. Profiles > Terminal > check "unlimited scrollback"
+6. Profiles > Colors > Presets > Import > `Nord` (https://www.nordtheme.com)
+7. Profiles > Text > Check "Vertical Bar" + check "Blinking Cursor"
+8. Profiles > Text > FiraCode Nerd Font (https://github.com/ryanoasis/nerd-fonts) Regular 15 + check "Use Ligatures"
+9. Profiles > Keys > Presets… > "Natural Text Editing"
 
 ## FINDER PREFERENCES
 
