@@ -1,5 +1,7 @@
 # macOS High Sierra setup
 
+TODO: Ansible playbooks to setup a mac from scratch
+
 ## Summary
 
 * [Update](#update)
@@ -23,11 +25,10 @@ Apple menu > App Store > Updates
 1. Security & Privacy > General > "Require password immediately after sleep or screen saver begins"
 2. Security & Privacy > Firewall > Turn on, then Options > check "Stealth mode"
 3. Security & Privacy > Privacy > Analytics > uncheck "Share Mac Analytics"
-4. Network > WiFi > Advanced > DNS Servers: `8.8.8.8` · `8.8.4.4`
-5. Trackpad > check "Tap to click"
-6. Trackpad > uncheck "Scroll direction natural"
-7. Dock > check "Automatically hide and show the Dock"
-8. Dock > "Prefer tabs when opening new documents" > choose "Always"
+4. Trackpad > check "Tap to click"
+5. Trackpad > uncheck "Scroll direction natural"
+6. Dock > check "Automatically hide and show the Dock"
+7. Dock > "Prefer tabs when opening new documents" > choose "Always"
 
 ## HOMEBREW
 
