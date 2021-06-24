@@ -15,6 +15,7 @@ TODO: Ansible playbooks to setup a mac from scratch
 * [iTerm2 Preferences](#iterm2-preferences)
 * [Finder Preferences](#finder-preferences)
 * [Itsycal Preferences](#itsycal-preferences)
+* [Unshaky](#Unshaky)
 * [Resources](#resources)
 
 ## UPDATE
@@ -67,7 +68,7 @@ zstyle :bracketed-paste-magic paste-init pasteinit
 zstyle :bracketed-paste-magic paste-finish pastefinish
 ```
 
-## Starship
+## STARSHIP
 
 1. Install Fira Code Nerd Font 
 
@@ -237,6 +238,10 @@ Before: Click on the date in menu bar > Open Date & Time Preferences > Clock > u
 
 1. General > check "Launch at login" + first day of week: Monday
 2. Appearance > Format: "E d MMM H:mm" + check "Hide icon"
+
+## UNSHAKY
+
+On a mac with a broken keyboard, install https://github.com/aahung/Unshaky.
 
 ## RESOURCES
 
