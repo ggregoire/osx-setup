@@ -8,6 +8,7 @@ TODO: Ansible playbooks to setup a mac from scratch
 * [System Preferences](#system-preferences)
 * [Homebrew](#homebrew)
 * [ZSH](#zsh)
+* [Starship](#starship)
 * [Yarn](#yarn)
 * [VSCode Setup](#vscode-setup)
 * [Nano Syntax Highlighting](#nano-syntax-highlighting)
@@ -64,6 +65,99 @@ pastefinish() {
 }
 zstyle :bracketed-paste-magic paste-init pasteinit
 zstyle :bracketed-paste-magic paste-finish pastefinish
+```
+
+## Starship
+
+1. Install Fira Code Nerd Font 
+
+2. Add `eval "$(starship init zsh)"` at the end of `~/.zshrc`.
+
+3. Add or edit `~/.config/starship.toml`:
+
+```toml
+[aws]
+symbol = "  "
+disabled = true
+
+[battery]
+disabled = true
+full_symbol = " "
+charging_symbol = " "
+discharging_symbol = " "
+
+[character]
+style_success = "bold purple"
+
+[cmd_duration]
+style = "yellow"
+prefix = ""
+
+[conda]
+symbol = " "
+
+[directory]
+style = "bold blue"
+
+[docker]
+symbol = " "
+
+[elixir]
+symbol = " "
+
+[elm]
+symbol = " "
+
+[env_var]
+variable = "ENV"
+prefix = "ENV="
+style = "dimmed blue"
+
+[git_branch]
+symbol = " "
+style = "dimmed white"
+
+[git_status]
+style = "dimmed white"
+show_sync_count = true
+
+[golang]
+symbol = " "
+
+[haskell]
+symbol = " "
+
+[hg_branch]
+symbol = " "
+
+[java]
+symbol = " "
+
+[julia]
+symbol = " "
+
+[nix_shell]
+symbol = " "
+
+[nodejs]
+symbol = " "
+style = "green"
+
+[package]
+symbol = " "
+
+[php]
+symbol = " "
+
+[python]
+symbol = " "
+style = "yellow"
+
+[ruby]
+symbol = " "
+
+[rust]
+symbol = " "
 ```
 
 ## YARN
