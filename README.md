@@ -87,12 +87,9 @@ full_symbol = " "
 charging_symbol = " "
 discharging_symbol = " "
 
-[character]
-style_success = "bold purple"
-
 [cmd_duration]
 style = "yellow"
-prefix = ""
+format = "[$duration]($style) "
 
 [conda]
 symbol = " "
@@ -100,7 +97,7 @@ symbol = " "
 [directory]
 style = "bold blue"
 
-[docker]
+[docker_context]
 symbol = " "
 
 [elixir]
@@ -111,8 +108,8 @@ symbol = " "
 
 [env_var]
 variable = "ENV"
-prefix = "ENV="
 style = "dimmed blue"
+format = "ENV=[$env_value]($style) "
 
 [git_branch]
 symbol = " "
@@ -120,13 +117,12 @@ style = "dimmed white"
 
 [git_status]
 style = "dimmed white"
-show_sync_count = true
+ahead = "⇡${count}"
+diverged = "⇕⇡${ahead_count}⇣${behind_count}"
+behind = "⇣${count}"
 
 [golang]
 symbol = " "
-
-[haskell]
-symbol = " "
 
 [hg_branch]
 symbol = " "
@@ -139,10 +135,6 @@ symbol = " "
 
 [nix_shell]
 symbol = " "
-
-[nodejs]
-symbol = " "
-style = "green"
 
 [package]
 symbol = " "
