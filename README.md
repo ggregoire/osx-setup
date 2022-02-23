@@ -193,10 +193,17 @@ symbol = " "
 
 ## NANO
 
+### Install
+
 ```zsh
 brew install nano nanorc
 echo 'include "/opt/homebrew/Cellar/nanorc/*/share/nanorc/*.nanorc"' >> ~/.nanorc
 ```
+
+### References
+
+- https://www.nano-editor.org
+- https://github.com/scopatz/nanorc
 
 ## VSCode Setup
 
