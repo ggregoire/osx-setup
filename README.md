@@ -1,4 +1,4 @@
-# macOS High Sierra setup
+# macOS Monterey setup
 
 TODO: Ansible playbooks to setup a mac from scratch
 
@@ -7,20 +7,20 @@ TODO: Ansible playbooks to setup a mac from scratch
 * [Update](#update)
 * [System Preferences](#system-preferences)
 * [Homebrew](#homebrew)
+* [iTerm2](#iterm2)
 * [ZSH](#zsh)
 * [Starship](#starship)
 * [Yarn](#yarn)
 * [VSCode Setup](#vscode-setup)
 * [Nano Syntax Highlighting](#nano-syntax-highlighting)
-* [iTerm2 Preferences](#iterm2-preferences)
 * [Finder Preferences](#finder-preferences)
 * [Itsycal Preferences](#itsycal-preferences)
-* [Unshaky](#Unshaky)
+* [Unshaky](#unshaky)
 * [Resources](#resources)
 
 ## UPDATE
 
-Apple menu > App Store > Updates
+Apple menu > System Preferences… > Software Update
 
 ## SYSTEM PREFERENCES
 
@@ -47,13 +47,27 @@ Apple menu > App Store > Updates
 alias du="ncdu --color dark -rr -x --exclude .git"
 ```
 
+## ITERM2
+
+1. General > Closing > uncheck all
+2. Appearance > Panes > uncheck "Show per-pane title bar"
+3. Appearance > Dimming > check "Dim inactive split panes"
+4. Profiles > General > "Working Directory: Advanced conf" > Edit > "New Split Panes: Reuse previous session's directory"
+5. Profiles > Terminal > check "unlimited scrollback"
+6. Profiles > Colors > Presets > Import > `Nord` (https://www.nordtheme.com)
+7. Profiles > Text > Check "Vertical Bar" + check "Blinking Cursor"
+8. Profiles > Text > FiraCode Nerd Font (https://github.com/ryanoasis/nerd-fonts) Regular 15 + check "Use Ligatures"
+9. Profiles > Keys > Key Mappings > Presets… > "Natural Text Editing"
+
 ## ZSH
 
-1. Change default shell: `sudo -s 'echo /usr/local/bin/zsh >> /etc/shells' && chsh -s /usr/local/bin/zsh`
-2. Install [Oh My Zsh](http://ohmyz.sh)
-3. Install [Zsh Syntax Highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
-4. Install [Zsh Autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
-5. Fix Zsh Autosuggestions copy/pasting lag in `~/.zshrc`:
+1. Create a config file `nano ~/.zshrc`
+2. Enable ZSH options: `setopt autocd`
+3. Enable [Homebrew completions](https://docs.brew.sh/Shell-Completion#configuring-completions-in-zsh)
+4. Install [ZSH Completions](https://github.com/zsh-users/zsh-completions): `brew install zsh-completions`
+5. Install [ZSH Autosuggestions](https://github.com/zsh-users/zsh-autosuggestions): `brew install zsh-autosuggestions`
+6. Install [ZSH Syntax Highlighting](https://github.com/zsh-users/zsh-syntax-highlighting): `brew install zsh-syntax-highlighting`
+7. (still needed?) Fix ZSH Autosuggestions copy/pasting lag in `~/.zshrc`:
 
 ```
 # This speeds up pasting w/ autosuggest
@@ -202,18 +216,6 @@ Packages: `create-react-app`, `depcheck`, `sloc`
 
 1. `curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh`
 2. `echo "include ~/.nano/*.nanorc" >> ~/.nanorc`
-
-## ITERM2 PREFERENCES
-
-1. General > Closing > uncheck all
-2. Appearance > Panes > uncheck "Show per-pane title bar"
-3. Appearance > Dimming > check "Dim inactive split panes"
-4. Profiles > General > "Working Directory: Advanced conf" > Edit > "New Split Panes: Reuse previous session's directory"
-5. Profiles > Terminal > check "unlimited scrollback"
-6. Profiles > Colors > Presets > Import > `Nord` (https://www.nordtheme.com)
-7. Profiles > Text > Check "Vertical Bar" + check "Blinking Cursor"
-8. Profiles > Text > FiraCode Nerd Font (https://github.com/ryanoasis/nerd-fonts) Regular 15 + check "Use Ligatures"
-9. Profiles > Keys > Key Mappings > Presets… > "Natural Text Editing"
 
 ## FINDER PREFERENCES
 
