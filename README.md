@@ -85,11 +85,17 @@ zstyle :bracketed-paste-magic paste-finish pastefinish
 
 ## STARSHIP
 
-1. Install Fira Code Nerd Font 
+### Install
 
-2. Add `eval "$(starship init zsh)"` at the end of `~/.zshrc`.
+```
+brew install starship
+```
 
-3. Add or edit `~/.config/starship.toml`:
+Add `eval "$(starship init zsh)"` at the end of `~/.zshrc`.
+
+Create a config file: `touch ~/.config/starship.toml`
+
+### Preferences
 
 ```toml
 [aws]
@@ -167,6 +173,10 @@ symbol = " "
 [rust]
 symbol = " "
 ```
+
+### References
+
+- https://starship.rs
 
 ## YARN
 
