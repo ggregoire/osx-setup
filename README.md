@@ -49,15 +49,32 @@ alias du="ncdu --color dark -rr -x --exclude .git"
 
 ## ITERM2
 
+### Install
+
+```zsh
+brew install --cask iterm2
+brew tap homebrew/cask-fonts
+brew install --cask font-firacode-nerd-font
+nano ~/Desktop/Nord.itermcolors # copy/paste https://github.com/arcticicestudio/nord-iterm2/blob/develop/src/xml/Nord.itermcolors, can be deleted afterwards
+```
+
+### Preferences
+
 1. General > Closing > uncheck all
 2. Appearance > Panes > uncheck "Show per-pane title bar"
 3. Appearance > Dimming > check "Dim inactive split panes"
 4. Profiles > General > "Working Directory: Advanced conf" > Edit > "New Split Panes: Reuse previous session's directory"
 5. Profiles > Terminal > check "unlimited scrollback"
-6. Profiles > Colors > Presets > Import > `Nord` (https://www.nordtheme.com)
+6. Profiles > Colors > Color Presets… > Import > `~/Desktop/Nord.itermcolors` > Color Presets… > "Nord"
 7. Profiles > Text > Check "Vertical Bar" + check "Blinking Cursor"
-8. Profiles > Text > FiraCode Nerd Font (https://github.com/ryanoasis/nerd-fonts) Regular 15 + check "Use Ligatures"
+8. Profiles > Text > Select "FiraCode Nerd Font Mono" + "Regular" + size 14 > check "Use Ligatures"
 9. Profiles > Keys > Key Mappings > Presets… > "Natural Text Editing"
+
+### References
+
+- https://iterm2.com
+- https://github.com/arcticicestudio/nord-iterm2
+- https://github.com/ryanoasis/nerd-fonts
 
 ## ZSH
 
