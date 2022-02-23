@@ -10,8 +10,8 @@ TODO: Ansible playbooks to setup a mac from scratch
 * [iTerm2](#iterm2)
 * [ZSH](#zsh)
 * [Starship](#starship)
+* [Nano](#nano)
 * [VSCode Setup](#vscode-setup)
-* [Nano Syntax Highlighting](#nano-syntax-highlighting)
 * [Finder Preferences](#finder-preferences)
 * [Itsycal Preferences](#itsycal-preferences)
 * [Unshaky](#unshaky)
@@ -191,6 +191,13 @@ symbol = " "
 
 - https://starship.rs
 
+## NANO
+
+```zsh
+brew install nano nanorc
+echo 'include "/opt/homebrew/Cellar/nanorc/*/share/nanorc/*.nanorc"' >> ~/.nanorc
+```
+
 ## VSCode Setup
 
 ### Extensions: 
@@ -228,11 +235,6 @@ symbol = " "
   "window.zoomLevel": 1,
 }
 ```
-
-## NANO SYNTAX HIGHLIGHTING
-
-1. `curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh`
-2. `echo "include ~/.nano/*.nanorc" >> ~/.nanorc`
 
 ## FINDER PREFERENCES
 
