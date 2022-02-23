@@ -212,7 +212,7 @@ Packages: `create-react-app`, `depcheck`, `sloc`
 6. Profiles > Colors > Presets > Import > `Nord` (https://www.nordtheme.com)
 7. Profiles > Text > Check "Vertical Bar" + check "Blinking Cursor"
 8. Profiles > Text > FiraCode Nerd Font (https://github.com/ryanoasis/nerd-fonts) Regular 15 + check "Use Ligatures"
-9. Profiles > Keys > Presets… > "Natural Text Editing"
+9. Profiles > Keys > Key Mappings > Presets… > "Natural Text Editing"
 
 ## FINDER PREFERENCES
 
