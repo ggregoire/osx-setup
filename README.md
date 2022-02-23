@@ -4,24 +4,28 @@ TODO: Ansible playbooks to setup a mac from scratch
 
 ## Summary
 
-* [Update](#update)
-* [System Preferences](#system-preferences)
-* [Homebrew](#homebrew)
-* [iTerm2](#iterm2)
-* [ZSH](#zsh)
-* [Starship](#starship)
-* [Nano](#nano)
+* [Prerequisites](#prerequisites)
+  * [Update system](#update-system)
+  * [System Preferences](#system-preferences)
+* [Terminal](#terminal)
+  * [Homebrew](#homebrew)
+  * [iTerm2](#iterm2)
+  * [ZSH](#zsh)
+  * [Starship](#starship)
+  * [Nano](#nano)
 * [VSCode Setup](#vscode-setup)
 * [Finder Preferences](#finder-preferences)
 * [Itsycal Preferences](#itsycal-preferences)
 * [Unshaky](#unshaky)
 * [Resources](#resources)
 
-## UPDATE
+## Prerequisites
+
+### Update system
 
 Apple menu > System Preferences… > Software Update
 
-## SYSTEM PREFERENCES
+### System Preferences
 
 1. Security & Privacy > General > "Require password immediately after sleep or screen saver begins"
 2. Security & Privacy > Firewall > Turn on, then Options > check "Stealth mode"
@@ -32,7 +36,9 @@ Apple menu > System Preferences… > Software Update
 7. Dock > "Prefer tabs when opening new documents" > choose "Always"
 8. Battery > check "Optimize video streaming while on battery"
 
-## HOMEBREW
+## Terminal
+
+### Homebrew
 
 1. Install [Homebrew](http://brew.sh)
 2. Brew installs: `ansible`, `bandwhich`, `docker`, `docker-machine`, `ghc`, `go`, `git`, `haskell-stack`, `htop`, `imagemagick`, `nano`, `ncdu`, `node`, `sshpass`, `starship`, `yarn`, `zsh`
@@ -43,9 +49,9 @@ Apple menu > System Preferences… > Software Update
 alias du="ncdu --color dark -rr -x --exclude .git"
 ```
 
-## ITERM2
+### iTerm2
 
-### Install
+#### Install
 
 ```zsh
 brew install --cask iterm2
@@ -54,7 +60,7 @@ brew install --cask font-firacode-nerd-font
 nano ~/Desktop/Nord.itermcolors # copy/paste https://github.com/arcticicestudio/nord-iterm2/blob/develop/src/xml/Nord.itermcolors, can be deleted afterwards
 ```
 
-### Preferences
+#### Preferences
 
 1. General > Closing > uncheck all
 2. Appearance > Panes > uncheck "Show per-pane title bar"
@@ -66,13 +72,13 @@ nano ~/Desktop/Nord.itermcolors # copy/paste https://github.com/arcticicestudio/
 8. Profiles > Text > Select "FiraCode Nerd Font Mono" + "Regular" + size 14 > check "Use Ligatures"
 9. Profiles > Keys > Key Mappings > Presets… > "Natural Text Editing"
 
-### References
+#### References
 
 - https://iterm2.com
 - https://github.com/arcticicestudio/nord-iterm2
 - https://github.com/ryanoasis/nerd-fonts
 
-## ZSH
+### ZSH
 
 1. Create a config file `nano ~/.zshrc`
 2. Enable ZSH options: `setopt autocd`
@@ -96,9 +102,9 @@ zstyle :bracketed-paste-magic paste-init pasteinit
 zstyle :bracketed-paste-magic paste-finish pastefinish
 ```
 
-## STARSHIP
+### Starship
 
-### Install
+#### Install
 
 ```
 brew install starship
@@ -108,7 +114,7 @@ Add `eval "$(starship init zsh)"` at the end of `~/.zshrc`.
 
 Create a config file: `touch ~/.config/starship.toml`
 
-### Preferences
+#### Preferences
 
 ```toml
 [aws]
@@ -187,20 +193,20 @@ symbol = " "
 symbol = " "
 ```
 
-### References
+#### References
 
 - https://starship.rs
 
-## NANO
+### Nano
 
-### Install
+#### Install
 
 ```zsh
 brew install nano nanorc
 echo 'include "/opt/homebrew/Cellar/nanorc/*/share/nanorc/*.nanorc"' >> ~/.nanorc
 ```
 
-### References
+#### References
 
 - https://www.nano-editor.org
 - https://github.com/scopatz/nanorc
