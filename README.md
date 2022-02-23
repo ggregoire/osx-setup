@@ -10,7 +10,6 @@ TODO: Ansible playbooks to setup a mac from scratch
 * [iTerm2](#iterm2)
 * [ZSH](#zsh)
 * [Starship](#starship)
-* [Yarn](#yarn)
 * [VSCode Setup](#vscode-setup)
 * [Nano Syntax Highlighting](#nano-syntax-highlighting)
 * [Finder Preferences](#finder-preferences)
@@ -36,12 +35,9 @@ Apple menu > System Preferences… > Software Update
 ## HOMEBREW
 
 1. Install [Homebrew](http://brew.sh)
-2. Install [Homebrew Cask](https://caskroom.github.io)
-3. Add taps: `brew tap homebrew/cask-fonts`
-4. Brew installs: `ansible`, `bandwhich`, `docker`, `docker-machine`, `ghc`, `go`, `git`, `haskell-stack`, `htop`, `imagemagick`, `nano`, `ncdu`, `node`, `sshpass`, `starship`, `yarn`, `zsh`
-5. Cask installs: `appcleaner`, `background-music`, `ccleaner`, `dbeaver-community`, `flux`, `font-firacode-nerd-font`, `google-chrome`, `iterm2`, `itsycal`, `kap`, `keepingyouawake`, `notion`, `omnidisksweeper`, `qlmarkdown`, `smcfancontrol`, `usage`, `virtualbox`, `visual-studio-code`
-6. To use Homebrew packages instead of OSX defaults (zsh, git, etc), add `PATH="/usr/local/bin:$PATH"` to `~/.zshrc`
-7. Aliases in `~/.zshrc`:
+2. Brew installs: `ansible`, `bandwhich`, `docker`, `docker-machine`, `ghc`, `go`, `git`, `haskell-stack`, `htop`, `imagemagick`, `nano`, `ncdu`, `node`, `sshpass`, `starship`, `yarn`, `zsh`
+3. Cask installs: `appcleaner`, `background-music`, `ccleaner`, `dbeaver-community`, `flux`, `font-firacode-nerd-font`, `google-chrome`, `iterm2`, `itsycal`, `kap`, `keepingyouawake`, `notion`, `omnidisksweeper`, `qlmarkdown`, `smcfancontrol`, `usage`, `virtualbox`, `visual-studio-code`
+4. Aliases in `~/.zshrc`:
 
 ```
 alias du="ncdu --color dark -rr -x --exclude .git"
@@ -194,12 +190,6 @@ symbol = " "
 ### References
 
 - https://starship.rs
-
-## YARN
-
-`yarn global add <package>`
-
-Packages: `create-react-app`, `depcheck`, `sloc`
 
 ## VSCode Setup
 
