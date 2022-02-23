@@ -31,6 +31,7 @@ Apple menu > App Store > Updates
 5. Trackpad > uncheck "Scroll direction natural"
 6. Dock > check "Automatically hide and show the Dock"
 7. Dock > "Prefer tabs when opening new documents" > choose "Always"
+8. Battery > check "Optimize video streaming while on battery"
 
 ## HOMEBREW
 
