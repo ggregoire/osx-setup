@@ -38,6 +38,12 @@ Apple menu > System Preferences… > Software Update
 
 ## Terminal
 
+Note: I tried to replace iTerm2 with Ghostty but it has many major blocking points as of today:
+
+- using the keyboard on macOS while sshing into a remote box is completely broken (and doesn't seem like it will ever be fixed out-of-the-box, see the docs for some workarounds) (<kbd>ctrl</kbd>+<kbd>R</kbd> i.e. reverse search doesn't work, <kbd>delete</kbd> prints spaces instead of deleting text, etc): https://ghostty.org/docs/help/terminfo
+- lack of live search & search scrollback: https://github.com/ghostty-org/ghostty/issues/189
+- new split and new window/tab share the shame "inherit working directory" configuration: https://github.com/ghostty-org/ghostty/issues/1392#issuecomment-2573511498
+
 ### Homebrew
 
 1. Install [Homebrew](http://brew.sh)
